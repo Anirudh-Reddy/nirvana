@@ -1,0 +1,10 @@
+<div id="gallery" class="gallery">
+    <h2>Our Gallery</h2>
+    <div class="gallery_container">
+        <div class="gallery_items">
+            <div class="g_i_card" *ngFor="let e of [].constructor(6); let i = index">
+                <img [src]="'../../../assets/images/gallary_' + (i+1) + '.jpg'">
+            </div>
+        </div>
+    </div>
+</div>

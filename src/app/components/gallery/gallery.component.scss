@@ -1,0 +1,68 @@
+.gallery{
+    margin-bottom: 100px;
+}
+
+.gallery_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.gallery > h2{
+    text-align: center;
+    color: #0e0a05;
+    font-size: 3rem;
+    margin: 10px 0;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.gallery_items{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+}
+
+.g_i_card{
+    padding: 10px;
+    // width: 33.33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.g_i_card > img{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    width: 300px;
+    height: 250px;    
+}
+
+.g_i_card > img:hover{
+    transition: 0.1s ease-in;
+    transform: scale(1.05);
+}
+
+
+@media(min-width:851px){
+
+}
+
+@media(max-width:850px){
+    .g_i_card > img{
+        width: 280px;
+        height: 230px;    
+    }
+}
+
+@media(max-width:550px){
+    .g_i_card > img{
+        width: 100%;
+        height: auto;    
+    }
+}

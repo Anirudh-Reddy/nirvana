@@ -1,1 +1,58 @@
 /* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+
+html, body { height: 100%; }
+body { margin: 0;}
+
+html {
+    font-size: 62.5%;
+    font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+}
+
+.mdc-tab{
+    padding: 0 12px !important;
+}
+
+.mat-mdc-tab-body-content{
+    overflow-x: hidden !important;
+}
+
+.mat-drawer-content{
+    overflow-x: hidden !important;
+}
+
+.mat-mdc-dialog-panel{
+    min-height: 760px !important;
+}
+
+.mdc-dialog__surface{
+    padding: 0 !important;
+    min-height: 680px !important;
+    border-radius: 10px !important;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+}
+
+.mat-mdc-dialog-content{
+    padding: 0 !important;
+    min-height: 680px !important;
+    max-width: 550px;
+    overflow-y: hidden !important;
+}
+
+@media(max-width:550px){
+    .mat-mdc-dialog-content{
+        padding: 0 !important;
+        min-height: 620px !important;
+    }
+    
+    .mat-mdc-dialog-panel{
+        min-height: 620px !important;
+    }
+    
+    .mdc-dialog__surface{
+        min-height: 620px !important;
+        border-radius: 10px !important;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+    } 
+}

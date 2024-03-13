@@ -1,0 +1,37 @@
+<!-- <mat-dialog-actions align="end">
+  <button class="dialog_close" mat-dialog-close><mat-icon aria-hidden="false" fontIcon="close"></mat-icon></button>
+  <button mat-button [mat-dialog-close]="true" cdkFocusInitial>Install</button>
+</mat-dialog-actions>
+<h2 mat-dialog-title>{{menuItem.itemName}}</h2> -->
+<mat-dialog-content class="mat-typography">
+    <div class="dialog_container">
+        <div class="dialog_close" mat-dialog-close>
+          <mat-icon aria-hidden="false" fontIcon="close"></mat-icon>
+        </div>
+        <img src="../../../assets/images/example.jpg" alt="">
+        <div class="dialog_content">
+          <h2>{{menuItem.itemName}}</h2>
+          <p>{{menuItem.itemDescription}}</p>
+          <p>${{menuItem.itemPrice}}</p>
+          <div class="dialog_item_details">
+            <div class="c1">
+              <span class="detail_type">Calories</span>
+              <span class="detail_count">289</span>
+            </div>
+            <div class="c1">
+              <span class="detail_type">Fats</span>
+              <span class="detail_count">21g</span>
+            </div>
+            <div class="c1">
+              <span class="detail_type">Carbs</span>
+              <span class="detail_count">5g</span>
+            </div>
+            <div class="c1">
+              <span class="detail_type">Protein</span>
+              <span class="detail_count">26g</span>
+            </div>
+          </div>
+        </div>
+    </div>
+  
+</mat-dialog-content>
