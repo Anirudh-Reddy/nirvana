@@ -14,11 +14,16 @@ import { UtilsService } from '../../services/utils.service';
 })
 export class MenuItemsComponent implements OnInit{
   @Input() restaurant:any;
-
+  public isDarkMode:boolean = false;
   constructor(public dialog: MatDialog, private utilsService: UtilsService) {}
 
   ngOnInit(): void {
-    console.log(this.restaurant)
+    this.utilsService.darkMode$.subscribe({
+      next:res=>{
+        this.isDarkMode = res;
+      } 
+    })
+    // console.log(this.restaurant)
   }
 
   openDialog(item:any) {

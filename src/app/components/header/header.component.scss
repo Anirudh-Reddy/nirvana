@@ -16,6 +16,10 @@
     color: white;
     background: #000428;
   }
+
+  .bg-toggle{
+    background-color: #24243e !important;
+  }
   
   .header_content{
     display: flex;
@@ -30,10 +34,13 @@
     font-weight: 700;
   }
   .header_right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     a{
         margin: 0 10px;
         text-decoration: none;
-        color: white;
+        color: inherit;
         font-size: 1.8rem;
         font-weight: 600;
         border-bottom: 2px solid transparent;
@@ -41,6 +48,9 @@
     }
     a:hover{
       border-bottom: 2px solid white;
+    }
+    .hidebtn{
+      margin-left: 10px;
     }
  }
 
@@ -86,9 +96,17 @@
       padding: 10px 20px;
       text-align: center;
     }
+    .hidebtn{
+      display: none;
+    }
   }
   .nav-small{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .togglebtn-small{
+    margin-right: 10px;
   }
 
  }

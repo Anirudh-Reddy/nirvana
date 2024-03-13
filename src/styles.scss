@@ -1,8 +1,15 @@
-/* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
 html, body { height: 100%; }
 body { margin: 0;}
+
+body {
+    transition: background-color 0.3s ease; // Optional: Add a smooth transition
+  }
+  
+.dark-mode {
+    background-color: black;
+}
 
 html {
     font-size: 62.5%;
@@ -23,7 +30,7 @@ html {
 }
 
 .mat-mdc-dialog-panel{
-    min-height: 760px !important;
+    min-height: 680px !important;
 }
 
 .mdc-dialog__surface{
@@ -55,4 +62,24 @@ html {
         border-radius: 10px !important;
         box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
     } 
+}
+
+.color-white{
+    color: white;
+}
+
+.bg-dark{
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #434343, #000000);
+    background: linear-gradient(to right, #434343, #000000);
+    color: white;
+    .swiper-pagination-bullet {
+        background-color: white !important;
+    }
+     .mdc-tab__text-label {
+        color: white !important;
+    }
+    .mdc-tab__text-label:hover {
+        color: white !important;
+    }
 }

@@ -1,13 +1,15 @@
-<div class="header">
+<div class="header" [ngClass]="{'bg-toggle':isDarkMode}">
     <div class="header_content">
         <div class="header_left">Nirvana</div>
-        <div class="header_right" (click)="showNav()" [ngClass]="showNavTabs ? 'nav-large' : ''">
+        <div class="header_right" (click)="showNav()" [ngClass]="{ 'bg-toggle': isDarkMode, 'nav-large': showNavTabs }">
             <a href="#home">Home</a>
             <a href="#menu">Menu</a>
             <a href="#gallery">Gallery</a>
             <a href="#contact-us">Contact</a>
+            <div class="hidebtn togglebtn-large" (change)="toggleMode()"><app-mode-toggle></app-mode-toggle></div>
         </div>
         <div class="nav-small" (click)="showNav()">
+            <div class="togglebtn-small" (change)="toggleMode()"><app-mode-toggle></app-mode-toggle></div>
             <div *ngIf="!showNavTabs"><mat-icon aria-hidden="false" fontIcon="menu"></mat-icon></div>
             <div *ngIf="showNavTabs"><mat-icon aria-hidden="false" fontIcon="close"></mat-icon></div>
         </div>

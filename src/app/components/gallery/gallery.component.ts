@@ -1,5 +1,6 @@
 import { CommonModule } from '@angular/common';
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+import { UtilsService } from '../../services/utils.service';
 
 @Component({
   selector: 'app-gallery',
@@ -8,6 +9,14 @@ import { Component } from '@angular/core';
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.scss'
 })
-export class GalleryComponent {
-
+export class GalleryComponent implements OnInit{
+  public isDarkMode:boolean = false;
+  constructor(private utilsService: UtilsService){}
+  ngOnInit(): void {
+    this.utilsService.darkMode$.subscribe({
+      next:res=>{
+        this.isDarkMode = res;
+      } 
+    })
+  }
 }

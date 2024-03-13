@@ -11,6 +11,7 @@ import restaurantMenu from '../../models/restaurant-menu.json';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { UtilsService } from '../../services/utils.service';
 
 @Component({
   selector: 'app-menu',
@@ -35,7 +36,14 @@ export class MenuComponent implements OnInit{
     'dessert.jpg',
     'beverages.jpg'
   ]
+  public isDarkMode:boolean = false;
+  constructor(private utilsService: UtilsService){}
   ngOnInit(): void {
+    this.utilsService.darkMode$.subscribe({
+      next:res=>{
+        this.isDarkMode = res;
+      } 
+    })
     const swiper = new Swiper('.tranding-slider', {
         modules: [Navigation, Pagination, EffectCoverflow],
         effect: 'coverflow',

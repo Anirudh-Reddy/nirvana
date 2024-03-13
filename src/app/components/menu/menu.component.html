@@ -1,4 +1,4 @@
-<div id="menu" class="tab">
+<div id="menu" class="tab" [ngClass]="{'bg-dark':isDarkMode}">
     <div class="menu_container">
         <div class="menu_content">
             <div class="menu_para">
@@ -204,6 +204,7 @@
                     </div>
                 </section>
             </div>
+
             <h2>Our Menu</h2>
             <div class="menu_list" id="menu_list">  
               <mat-tab-group class="menu_list_mat_group">
