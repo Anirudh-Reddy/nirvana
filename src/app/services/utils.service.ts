@@ -7,10 +7,6 @@ import { BehaviorSubject, Observable } from 'rxjs';
 export class UtilsService {
   private restaurantMenuSubject = new BehaviorSubject<any>(null);
   restaurantMenu$: Observable<any> = this.restaurantMenuSubject.asObservable();
-
-  private darkModeSubject = new BehaviorSubject<any>(false);
-  darkMode$: Observable<any> = this.darkModeSubject.asObservable();
-
   constructor() { }
 
   getRestaurantMenu(): any {
@@ -19,9 +15,5 @@ export class UtilsService {
 
   updateRestaurantMenu(menuItem: any): void {
     this.restaurantMenuSubject.next(menuItem);
-  }
-
-  setDarkMode(flag: boolean): void {
-    this.darkModeSubject.next(flag);
   }
 }
