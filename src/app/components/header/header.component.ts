@@ -14,7 +14,7 @@ import { ModeToggleComponent } from '../mode-toggle/mode-toggle.component';
 })
 export class HeaderComponent {
   public showNavTabs:Boolean = false;
-  isDarkMode = false
+  public isDarkMode = false
 
   constructor(private utilsService: UtilsService){}
 

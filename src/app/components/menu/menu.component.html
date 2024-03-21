@@ -1,9 +1,9 @@
 <div id="menu" class="tab" [ngClass]="{'bg-dark':isDarkMode}">
     <div class="menu_container">
         <div class="menu_content">
-            <div class="menu_para">
+            <!-- <div class="menu_para">
                 <p>Nirvana of Reading’s Indian home-style cooking offers a gastronomic journey through the rich flavors of traditional Indian cuisine. Our chefs’ expertise in blending exotic spices and cooking techniques creates a memorable culinary experience that will leave you craving for more.</p>
-            </div>
+            </div> -->
             <div class="slider_ex">
                 <section id="tranding">
                     <div class="container">
@@ -207,15 +207,15 @@
 
             <h2>Our Menu</h2>
             <div class="menu_list" id="menu_list">  
-              <mat-tab-group class="menu_list_mat_group">
-                <mat-tab *ngFor="let restaurant of getRestaurantMenuKeys(), let i = index">
+              <mat-tab-group class="menu_list_mat_group" *ngIf="restaurantMenu.length">
+                <mat-tab *ngFor="let menu of restaurantMenu, let i = index">
                   <ng-template mat-tab-label>
                     <div class="menu_tab">
                       <img [src]="'../../../assets/images/menu-tab/'+ menuTabImages[i]" alt="Restaurant Image" class="tab-img">
-                      <span>{{ restaurant }}</span>
+                      <span>{{ menu.menuType }}</span>
                     </div>
                   </ng-template>
-                  <app-menu-items [restaurant]="restaurantMenu[restaurant]"></app-menu-items>
+                  <app-menu-items [menuItems]="menu.menuList"></app-menu-items>
                 </mat-tab>
               </mat-tab-group>                
             </div>

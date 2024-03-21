@@ -1,0 +1,19 @@
+<div class="login">
+    <div class="login_container">
+        <div class="login_bg">
+            <div class="login_left">
+                <span>Welcome to Nirvana,<br>Admin Dashboard</span>
+            </div>
+            <div class="login_right" >
+                <form class="login_form" [formGroup]="loginForm" (ngSubmit)="handleLogin()">
+                    <h3>Login</h3>
+                    <input type="text" id="username" formControlName="username" required placeholder="username">
+                    <div *ngIf="submitted && form['username'].errors?.['required']" class="text-danger">*Username is required</div>
+                    <input type="password" id="password" formControlName="password" required placeholder="password">
+                    <div *ngIf="submitted && form['password'].errors?.['required']" class="text-danger">*Password is required</div>
+                    <button type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

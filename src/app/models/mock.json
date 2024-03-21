@@ -1,0 +1,380 @@
+[
+    {
+        "_id": "65f86faf760f66e88980db80",
+        "menuType": "soups",
+        "menuList": [
+            {
+                "itemName": "Chicken Soup",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 6,
+                "_id": "65f896d599b92c4e1a0efc4b"
+            }
+        ]
+    },
+    {
+        "_id": "65f86fd3760f66e88980db83",
+        "menuType": "starters",
+        "menuList": [
+
+            {
+                "itemName": "Vegetable Pakora",
+                "itemDescription": "Mixed Crispy Vegetable Fritters",
+                "itemImage": "assets/images/",
+                "itemPrice": 7,
+                "_id": "65f896f899b92c4e1a0efc5d"
+            },
+            {
+                "itemName": "Salmon Pakorat",
+                "itemDescription": "Pieces of Salmon dipped in delicately spiced batter and fried to golden perfection",
+                "itemImage": "assets/images/",
+                "itemPrice": 13,
+                "_id": "65f896fc99b92c4e1a0efc64"
+            },
+            {
+                "itemName": "Papri Chat",
+                "itemDescription": "Crunchy, Tangy, hot and sweet flavors combine to make this dish delicious as a snack",
+                "itemImage": "assets/images/",
+                "itemPrice": 8,
+                "_id": "65f8970099b92c4e1a0efc6c"
+            },
+            {
+                "itemName": "Veg Manchurian",
+                "itemDescription": "Mixed Veg balls coated in a Manchurian sauce made from scratch",
+                "itemImage": "assets/images/",
+                "itemPrice": 12,
+                "_id": "65f8970499b92c4e1a0efc75"
+            },
+            {
+                "itemName": "Gobi Manchurian",
+                "itemDescription": "Crispy Cauliflower in a chili garlic soy sauce",
+                "itemImage": "assets/images/",
+                "itemPrice": 12,
+                "_id": "65f8970899b92c4e1a0efc7f"
+            },
+            {
+                "itemName": "Samosa Chat",
+                "itemDescription": "Broken Samosa with spiced chickpeas topped with yogurt & tamarind Sauce",
+                "itemImage": "assets/images/",
+                "itemPrice": 10,
+                "_id": "65f8971799b92c4e1a0efcb1"
+            },
+            {
+                "itemName": "Grilled Mushroom",
+                "itemDescription": "Fresh Mushrooms Marinated and Grilled in Tandoori clay oven",
+                "itemImage": "assets/images/",
+                "itemPrice": 12,
+                "_id": "65f8971c99b92c4e1a0efcc0"
+            },
+            {
+                "itemName": "Chili Chicken",
+                "itemDescription": "Fried chicken pieces in a chili, garlic, soy sauce with sautéed onions & peppers",
+                "itemImage": "assets/images/",
+                "itemPrice": 10,
+                "_id": "65f8972099b92c4e1a0efcd0"
+            },
+            {
+                "itemName": "Chicken 65",
+                "itemDescription": "White Chicken pieces cooked in curry leaves, mustard seeds & yogurt",
+                "itemImage": "assets/images/",
+                "itemPrice": 12,
+                "_id": "65f8972499b92c4e1a0efce1"
+            }
+        ]
+    },
+    {
+        "_id": "65f8893be4d58bb07c03cb3d",
+        "menuType": "mainDishes",
+        "menuList": [
+            {
+                "itemName": "Lamb Seekh Kabob",
+                "itemDescription": "Ground lamb marinated with herbs & spices, grilled in clay oven",
+                "itemImage": "assets/images/",
+                "itemPrice": 20,
+                "_id": "65f8963699b92c4e1a0efbe4"
+            },
+            {
+                "itemName": "Tandoori Mixed Platter",
+                "itemDescription": "Combination of tandoori chicken, salmon, shrimp, chicken tikka, and lamb seekh kabob",
+                "itemImage": "assets/images/",
+                "itemPrice": 28,
+                "_id": "65f8963a99b92c4e1a0efbef"
+            },
+            {
+                "itemName": "Paneer Tandoori",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 16,
+                "_id": "65f8963e99b92c4e1a0efbfb"
+            },
+            {
+                "itemName": "Lamb Chop Korma",
+                "itemDescription": "Lamb Chop in Korma Sauce - chef special",
+                "itemImage": "assets/images/",
+                "itemPrice": 28,
+                "_id": "65f8964299b92c4e1a0efc08"
+            }
+        ]
+    },
+    {
+        "_id": "65f88963e4d58bb07c03cb43",
+        "menuType": "jainFood",
+        "menuList": [
+            {
+                "itemName": "Gobi Matar",
+                "itemDescription": "No Onion, No Garlic. Fresh cauliflower, green peas, fresh tomatoes & spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 15.5,
+                "_id": "65f893f0c9adc1d14b2e14f1"
+            },
+            {
+                "itemName": "Gobi Matar",
+                "itemDescription": "No Onion, No Garlic. Fresh cauliflower, green peas, fresh tomatoes & spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 15.5,
+                "_id": "65f893f4c9adc1d14b2e14fa"
+            },
+            {
+                "itemName": "Nirvana Yellow Daal",
+                "itemDescription": "No Onion, No Garlic. Yellow lentils cooked with chef special home ingredients & herbs",
+                "itemImage": "assets/images/",
+                "itemPrice": 14.5,
+                "_id": "65f894a5b954a358bb14047d"
+            }
+        ]
+    },
+    {
+        "_id": "65f8896fe4d58bb07c03cb46",
+        "menuType": "chicken",
+        "menuList": [
+            {
+                "itemName": "Chicken Jalfrazi",
+                "itemDescription": "Chicken cubes, onion, green pepper, tomato & vegetables.",
+                "itemImage": "assets/images/",
+                "itemPrice": 16.5,
+                "_id": "65f892acc9adc1d14b2e148a"
+            },
+            {
+                "itemName": "Chicken Dhansak",
+                "itemDescription": "Chicken cubes, yellow lentils & spices.",
+                "itemImage": "assets/images/",
+                "itemPrice": 16.5,
+                "_id": "65f892afc9adc1d14b2e1496"
+            }
+        ]
+    },
+    {
+        "_id": "65f88979e4d58bb07c03cb49",
+        "menuType": "lambAndGoat",
+        "menuList": [
+            {
+                "itemName": "Goat Pepper Fry",
+                "itemDescription": "A south Indian dish. Meat is coated in a thick gravy with flavorful masala sauce and black pepper",
+                "itemImage": "assets/images/",
+                "itemPrice": 24,
+                "_id": "65f895ad99b92c4e1a0efb5b"
+            },
+            {
+                "itemName": "Lamb Vindaloo",
+                "itemDescription": "Tender lamb chunks sauteed with potatoes, hot spices & vinegar",
+                "itemImage": "assets/images/",
+                "itemPrice": 22,
+                "_id": "65f895c899b92c4e1a0efb8c"
+            },
+            {
+                "itemName": "Lamb Madras Curry",
+                "itemDescription": "South Indian style lamb curry with roasted dry chili & mustard seed in a coconut based sauce",
+                "itemImage": "assets/images/",
+                "itemPrice": 22,
+                "_id": "65f895cc99b92c4e1a0efb97"
+            },
+            {
+                "itemName": "Lamb Curry",
+                "itemDescription": "Lamb cubes, traditional onion based gravy & spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 22,
+                "_id": "65f895d099b92c4e1a0efba3"
+            },
+            {
+                "itemName": "Lamb Kalimirch",
+                "itemDescription": "Lamb cubes in a creamy peppery sauce",
+                "itemImage": "assets/images/",
+                "itemPrice": 22,
+                "_id": "65f895d499b92c4e1a0efbb0"
+            }
+        ]
+    },
+    {
+        "_id": "65f8898ee4d58bb07c03cb4f",
+        "menuType": "bread",
+        "menuList": [
+            {
+                "itemName": "Roti",
+                "itemDescription": "Whole wheat bread in clay oven",
+                "itemImage": "assets/images/",
+                "itemPrice": 3,
+                "_id": "65f89172c9adc1d14b2e1409"
+            },
+            {
+                "itemName": "Aloo Paratha",
+                "itemDescription": "Whole wheat stuffed with spiced potato",
+                "itemImage": "assets/images/",
+                "itemPrice": 5,
+                "_id": "65f89176c9adc1d14b2e1410"
+            },
+            {
+                "itemName": "Lachha Paratha",
+                "itemDescription": "Multi-layered whole wheat bread",
+                "itemImage": "assets/images/",
+                "itemPrice": 4,
+                "_id": "65f89185c9adc1d14b2e1418"
+            },
+            {
+                "itemName": "Onion Kulcha",
+                "itemDescription": "Naan bread stuffed with spiced onion",
+                "itemImage": "assets/images/",
+                "itemPrice": 4,
+                "_id": "65f8918ac9adc1d14b2e1421"
+            }
+        ]
+    },
+    {
+        "_id": "65f889a8e4d58bb07c03cb52",
+        "menuType": "biriyani",
+        "menuList": [
+            {
+                "itemName": "Special House Biryani",
+                "itemDescription": "Nirvana Special. Tender pieces of Chicken, Lamb, and Shrimp cooked with basmati rice with herbs and various spiced",
+                "itemImage": "assets/images/",
+                "itemPrice": 25,
+                "_id": "65f88d60e4d58bb07c03cb63"
+            },
+            {
+                "itemName": "Goat Biryani",
+                "itemDescription": "Bone-in Goat pieces prepared with basmati rice, flavored with saffron & delicate spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 19.5,
+                "_id": "65f88e7de4d58bb07c03cb67"
+            },
+            {
+                "itemName": "Chicken Biryani",
+                "itemDescription": "Tender pieces of juicy chicken prepared with basmati rice, flavored with saffron & delicate spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 16.5,
+                "_id": "65f88e82e4d58bb07c03cb6c"
+            },
+            {
+                "itemName": "Lamb Biryani",
+                "itemDescription": "Tender pieces of lamb cooked with basmati rice & exotic spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 19.5,
+                "_id": "65f88e88e4d58bb07c03cb72"
+            },
+            {
+                "itemName": "Shrimp Biryani",
+                "itemDescription": "Indian basmati rice cooked with shrimp, onions, fresh ginger & delicate spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 20.5,
+                "_id": "65f88e8ce4d58bb07c03cb79"
+            },
+            {
+                "itemName": "Vegetable Biryani",
+                "itemDescription": "Basmati rice cooked with seasonal vegetables, herbs & spices",
+                "itemImage": "assets/images/",
+                "itemPrice": 14.5,
+                "_id": "65f88e91e4d58bb07c03cb81"
+            }
+        ],
+        "__v": 7
+    },
+    {
+        "_id": "65f889b4e4d58bb07c03cb55",
+        "menuType": "dessert",
+        "menuList": [
+            {
+                "itemName": "Gulab Jam",
+                "itemDescription": "Dry milk balls deep fried in sugar syrup, flavored with cardamom and rosewater",
+                "itemImage": "assets/images/",
+                "itemPrice": 5,
+                "_id": "65f8932bc9adc1d14b2e1499"
+            },
+            {
+                "itemName": "Orange Kulf",
+                "itemDescription": "Orange flavored Indian ice cream in real orange",
+                "itemImage": "assets/images/",
+                "itemPrice": 8,
+                "_id": "65f8932fc9adc1d14b2e149d"
+            },
+            {
+                "itemName": "Orange Kulf in a cup",
+                "itemDescription": "Orange flavored Indian ice cream in a 5.5 oz cup",
+                "itemImage": "assets/images/",
+                "itemPrice": 4.5,
+                "_id": "65f89332c9adc1d14b2e14a2"
+            },
+            {
+                "itemName": "Rice Pudding",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 5,
+                "_id": "65f89335c9adc1d14b2e14a8"
+            },
+            {
+                "itemName": "Gajar Halwa",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 6,
+                "_id": "65f89339c9adc1d14b2e14af"
+            }
+        ]
+    },
+    {
+        "_id": "65f889bee4d58bb07c03cb58",
+        "menuType": "drinks",
+        "menuList": [
+            {
+                "itemName": "Strawberry Lassi",
+                "itemDescription": "Yogurt smoothie made with fresh Strawberries",
+                "itemImage": "assets/images/",
+                "itemPrice": 8,
+                "_id": "65f8939dc9adc1d14b2e14b2"
+            },
+            {
+                "itemName": "Mango Lassi",
+                "itemDescription": "Famous Indian mango yogurt smoothie",
+                "itemImage": "assets/images/",
+                "itemPrice": 6,
+                "_id": "65f893a0c9adc1d14b2e14b6"
+            },
+            {
+                "itemName": "Sweet Lassi",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 6,
+                "_id": "65f893a4c9adc1d14b2e14bb"
+            },
+            {
+                "itemName": "Salted Lassi",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 6,
+                "_id": "65f893a8c9adc1d14b2e14c1"
+            },
+            {
+                "itemName": "Masala Chai",
+                "itemDescription": " ",
+                "itemImage": "assets/images/",
+                "itemPrice": 4,
+                "_id": "65f893acc9adc1d14b2e14c8"
+            },
+            {
+                "itemName": "Sodas",
+                "itemDescription": "Coke Diet Coke Sprite Ginger Ale",
+                "itemImage": "assets/images/",
+                "itemPrice": 2.5,
+                "_id": "65f893b0c9adc1d14b2e14d0"
+            }
+        ],
+        "__v": 6
+    }
+]

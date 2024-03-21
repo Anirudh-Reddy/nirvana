@@ -4,7 +4,7 @@ html, body { height: 100%; }
 body { margin: 0;}
 
 body {
-    transition: background-color 0.3s ease; // Optional: Add a smooth transition
+    transition: background-color 0.3s ease;
   }
   
 .dark-mode {
@@ -29,39 +29,19 @@ html {
     overflow-x: hidden !important;
 }
 
-.mat-mdc-dialog-panel{
-    min-height: 680px !important;
-}
-
 .mdc-dialog__surface{
     padding: 0 !important;
-    min-height: 680px !important;
     border-radius: 10px !important;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
 }
 
 .mat-mdc-dialog-content{
-    padding: 0 !important;
-    min-height: 680px !important;
-    max-width: 550px;
-    overflow-y: hidden !important;
-}
+    max-height: 560px !important;
+    min-height: 500px !important;
+    max-width: 560px !important;
+    min-width: 500px !important;
 
-@media(max-width:550px){
-    .mat-mdc-dialog-content{
-        padding: 0 !important;
-        min-height: 620px !important;
-    }
-    
-    .mat-mdc-dialog-panel{
-        min-height: 620px !important;
-    }
-    
-    .mdc-dialog__surface{
-        min-height: 620px !important;
-        border-radius: 10px !important;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
-    } 
+    padding: 0 !important;
 }
 
 .color-white{
@@ -81,5 +61,11 @@ html {
     }
     .mdc-tab__text-label:hover {
         color: white !important;
+    }
+    .mat-mdc-tab-header-pagination-chevron {
+        border-width: 3px 3px 0 0 !important;
+        height: 10px !important;
+        width: 10px !important;
+        border-color: white !important;
     }
 }

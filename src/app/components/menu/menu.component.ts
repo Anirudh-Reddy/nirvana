@@ -12,6 +12,7 @@ import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
 import { UtilsService } from '../../services/utils.service';
+import { MenuService } from '../../services/menu.service';
 
 @Component({
   selector: 'app-menu',
@@ -37,12 +38,21 @@ export class MenuComponent implements OnInit{
     'beverages.jpg'
   ]
   public isDarkMode:boolean = false;
-  constructor(private utilsService: UtilsService){}
+
+  constructor(private utilsService: UtilsService, public menuService:MenuService){}
+   
   ngOnInit(): void {
+    console.log('hcbnoewlndscols')
     this.utilsService.darkMode$.subscribe({
       next:res=>{
         this.isDarkMode = res;
       } 
+    })
+    this.menuService.getMenuList().subscribe({
+      next:res=>{this.restaurantMenu = res
+      console.log(res)
+      },
+      error:err=>console.log('error retrieving data: ',err)
     })
     const swiper = new Swiper('.tranding-slider', {
         modules: [Navigation, Pagination, EffectCoverflow],
@@ -66,11 +76,6 @@ export class MenuComponent implements OnInit{
           prevEl: '.swiper-button-prev',
         }
     });
-    this.restaurantMenu = restaurantMenu;
-  }
-
-  getRestaurantMenuKeys(){
-    return Object.keys(restaurantMenu);
   }
   
 }

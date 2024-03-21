@@ -13,11 +13,12 @@ import { UtilsService } from '../../services/utils.service';
   styleUrl: './menu-items.component.scss'
 })
 export class MenuItemsComponent implements OnInit{
-  @Input() restaurant:any;
+  @Input() menuItems:any;
   public isDarkMode:boolean = false;
   constructor(public dialog: MatDialog, private utilsService: UtilsService) {}
 
   ngOnInit(): void {
+    // const dialogRef = this.dialog.open(MenuItemsDialogComponent);
     this.utilsService.darkMode$.subscribe({
       next:res=>{
         this.isDarkMode = res;
