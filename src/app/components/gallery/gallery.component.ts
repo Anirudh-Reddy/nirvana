@@ -10,13 +10,6 @@ import { UtilsService } from '../../services/utils.service';
   styleUrl: './gallery.component.scss'
 })
 export class GalleryComponent implements OnInit{
-  public isDarkMode:boolean = false;
-  constructor(private utilsService: UtilsService){}
-  ngOnInit(): void {
-    this.utilsService.darkMode$.subscribe({
-      next:res=>{
-        this.isDarkMode = res;
-      } 
-    })
-  }
+  constructor(){}
+  ngOnInit(): void {}
 }

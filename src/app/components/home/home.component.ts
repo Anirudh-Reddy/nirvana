@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import ScrollReveal from 'scrollreveal';
-import { UtilsService } from '../../services/utils.service';
 import { CommonModule } from '@angular/common';
 
 @Component({
@@ -12,16 +11,8 @@ import { CommonModule } from '@angular/common';
 })
 export class HomeComponent implements OnInit{
 
-  public isDarkMode:boolean = false;
-  constructor(private utilsService: UtilsService){}
+  constructor(){}
   ngOnInit(): void {
-    this.utilsService.darkMode$.subscribe({
-      next:res=>{
-        this.isDarkMode = res;
-      } 
-    })
-
-
     const sr = ScrollReveal({
       distance : '65px',
       duration : 2600,

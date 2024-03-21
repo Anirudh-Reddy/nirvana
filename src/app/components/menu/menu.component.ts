@@ -11,13 +11,11 @@ import restaurantMenu from '../../models/restaurant-menu.json';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
-import { UtilsService } from '../../services/utils.service';
-import { MenuService } from '../../services/menu.service';
 
 @Component({
   selector: 'app-menu',
   standalone: true,
-  imports: [MatIconModule, MatTabsModule, MenuItemsComponent, CommonModule, MatButtonModule, MatSidenavModule],
+  imports: [MatIconModule, MatTabsModule, MenuItemsComponent, CommonModule, MatButtonModule, MatSidenavModule, CommonModule],
   templateUrl: './menu.component.html',
   styleUrl: './menu.component.scss'
 })
@@ -37,45 +35,80 @@ export class MenuComponent implements OnInit{
     'dessert.jpg',
     'beverages.jpg'
   ]
-  public isDarkMode:boolean = false;
-
-  constructor(private utilsService: UtilsService, public menuService:MenuService){}
+  public popularItems = [
+    {
+      foodName: 'Special Pizza',
+      foodPrice: '$20',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-1.png'
+    },
+    {
+      foodName: 'Meat Ball',
+      foodPrice: '$20',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-2.png'
+    },
+    {
+      foodName: 'Burger',
+      foodPrice: '$40',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-3.png'
+    },
+    {
+      foodName: 'Fish Curry',
+      foodPrice: '$15',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-4.png'
+    },
+    {
+      foodName: 'Pan Cake',
+      foodPrice: '$15',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-5.png'
+    },
+    {
+      foodName: 'Vanilla Cake',
+      foodPrice: '$20',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-6.png'
+    },
+    {
+      foodName: 'Blueberry Cake',
+      foodPrice: '$8',
+      foodRating: 4.5,
+      foodImage: 'tranding-food-7.png'
+    }
+  ];
+  
+  constructor(){}
    
   ngOnInit(): void {
-    console.log('hcbnoewlndscols')
-    this.utilsService.darkMode$.subscribe({
-      next:res=>{
-        this.isDarkMode = res;
-      } 
-    })
-    this.menuService.getMenuList().subscribe({
-      next:res=>{this.restaurantMenu = res
-      console.log(res)
-      },
-      error:err=>console.log('error retrieving data: ',err)
-    })
+   this.restaurantMenu = restaurantMenu;
+   setTimeout(()=>{
     const swiper = new Swiper('.tranding-slider', {
-        modules: [Navigation, Pagination, EffectCoverflow],
-        effect: 'coverflow',
-        grabCursor: true,
-        centeredSlides: true,
-        loop: true,
-        slidesPerView: 'auto',
-        coverflowEffect: {
-          rotate: 0,
-          stretch: 0,
-          depth: 100,
-          modifier: 2.5,
-        },
-        pagination: {
-          el: '.swiper-pagination',
-          clickable: true,
-        },
-        navigation: {
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }
+      modules: [Navigation, Pagination, EffectCoverflow],
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      loop: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 100,
+        modifier: 2.5,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
     });
+   },10);
+   
   }
   
 }

@@ -1,9 +1,6 @@
-<div id="menu" class="tab" [ngClass]="{'bg-dark':isDarkMode}">
+<div id="menu" class="tab bg-dark">
     <div class="menu_container">
         <div class="menu_content">
-            <!-- <div class="menu_para">
-                <p>Nirvana of Reading’s Indian home-style cooking offers a gastronomic journey through the rich flavors of traditional Indian cuisine. Our chefs’ expertise in blending exotic spices and cooking techniques creates a memorable culinary experience that will leave you craving for more.</p>
-            </div> -->
             <div class="slider_ex">
                 <section id="tranding">
                     <div class="container">
@@ -13,19 +10,18 @@
                     <div class="container">
                       <div class="swiper tranding-slider">
                         <div class="swiper-wrapper">
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
+                          <div class="swiper-slide tranding-slide" *ngFor="let item of popularItems">
                             <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-1.png" alt="Tranding">
+                              <img [src]="'../../../assets/images/'+ item.foodImage" alt="Tranding">
                             </div>
                             <div class="tranding-slide-content">
-                              <h1 class="food-price">$20</h1>
+                              <h1 class="food-price">{{item.foodPrice}}</h1>
                               <div class="tranding-slide-content-bottom">
                                 <h2 class="food-name">
-                                  Special Pizza
+                                  {{item.foodName}}
                                 </h2>
                                 <h3 class="food-rating">
-                                  <span>4.5</span>
+                                  <span>{{item.foodRating}}</span>
                                   <div class="rating">
                                     <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
                                     <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
@@ -37,157 +33,6 @@
                               </div>
                             </div>
                           </div>
-                          <!-- Slide-end -->
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
-                            <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-2.png" alt="Tranding">
-                            </div>
-                            <div class="tranding-slide-content">
-                              <h1 class="food-price">$20</h1>
-                              <div class="tranding-slide-content-bottom">
-                                <h2 class="food-name">
-                                  Meat Ball
-                                </h2>
-                                <h3 class="food-rating">
-                                  <span>4.5</span>
-                                  <div class="rating">
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                  </div>
-                                </h3>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- Slide-end -->
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
-                            <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-3.png" alt="Tranding">
-                            </div>
-                            <div class="tranding-slide-content">
-                              <h1 class="food-price">$40</h1>
-                              <div class="tranding-slide-content-bottom">
-                                <h2 class="food-name">
-                                  Burger
-                                </h2>
-                                <h3 class="food-rating">
-                                  <span>4.5</span>
-                                  <div class="rating">
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                  </div>
-                                </h3>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- Slide-end -->
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
-                            <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-4.png" alt="Tranding">
-                            </div>
-                            <div class="tranding-slide-content">
-                              <h1 class="food-price">$15</h1>
-                              <div class="tranding-slide-content-bottom">
-                                <h2 class="food-name">
-                                  Fish Curry
-                                </h2>
-                                <h3 class="food-rating">
-                                  <span>4.5</span>
-                                  <div class="rating">
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                  </div>
-                                </h3>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- Slide-end -->
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
-                            <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-5.png" alt="Tranding">
-                            </div>
-                            <div class="tranding-slide-content">
-                              <h1 class="food-price">$15</h1>
-                              <div class="tranding-slide-content-bottom">
-                                <h2 class="food-name">
-                                  Pan Cake
-                                </h2>
-                                <h3 class="food-rating">
-                                  <span>4.5</span>
-                                  <div class="rating">
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                  </div>
-                                </h3>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- Slide-end -->
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
-                            <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-6.png" alt="Tranding">
-                            </div>
-                            <div class="tranding-slide-content">
-                              <h1 class="food-price">$20</h1>
-                              <div class="tranding-slide-content-bottom">
-                                <h2 class="food-name">
-                                  Vanilla cake
-                                </h2>
-                                <h3 class="food-rating">
-                                  <span>4.5</span>
-                                  <div class="rating">
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                  </div>
-                                </h3>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- Slide-end -->
-                          <!-- Slide-start -->
-                          <div class="swiper-slide tranding-slide">
-                            <div class="tranding-slide-img">
-                              <img src="../../../assets/images/tranding-food-7.png" alt="Tranding">
-                            </div>
-                            <div class="tranding-slide-content">
-                              <h1 class="food-price">$8</h1>
-                              <div class="tranding-slide-content-bottom">
-                                <h2 class="food-name">
-                                  Blueberry Cake
-                                </h2>
-                                <h3 class="food-rating">
-                                  <span>4.5</span>
-                                  <div class="rating">
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                    <mat-icon aria-hidden="false" aria-label="Example home icon" style="color:rgb(255, 255, 0)" fontIcon="star"></mat-icon>
-                                  </div>
-                                </h3>
-                              </div>
-                            </div>
-                          </div>
-                          <!-- Slide-end -->
                         </div>
               
                         <div class="tranding-slider-control">

@@ -24,11 +24,6 @@ export class MenuItemsDialogComponent implements OnInit{
         this.menuItem = res;
       }
     })
-    this.utilsService.darkMode$.subscribe({
-      next:res=>{
-        this.isDarkMode = res;
-      } 
-    })
   }
 
 }
