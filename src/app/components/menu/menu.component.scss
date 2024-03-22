@@ -1,29 +1,51 @@
   #menu{
     padding-bottom: 40px;
   }
-  
+
   .menu_container{
     height: 100%;
     padding: 100px 0 0 0;
   }
 
-  .menu_content > h2{
-    text-align: center;
-    color: white;
-    font-size: 3rem;
-    margin: 20px 0;
-    background: #4ECDC4;
-    background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
-    background: linear-gradient(to right, #556270, #4ECDC4);
-    padding: 50px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-}
+  .menu_content{
+      .menu_title{
+        text-align: center;
+        color: white;
+        font-size: 3rem;
+        margin: 20px 0;
+        padding: 20px;
+      h2{
+        background-size: 150%;
+        background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+        animation: MoveBackgroundPosition 6s ease-in-out infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 40px;
+        padding: 50px;
+        box-shadow: 0px 5px 5px -3px rgb(236 221 37 / 20%), 0px 8px 10px 1px rgb(232 182 27 / 14%), 0px 3px 14px 2px rgb(226 196 28 / 12%);
+      }
+    }
+  }
+
+  @keyframes MoveBackgroundPosition { 
+    0% {
+        background-position: 0% 50%
+    }
+    
+    50% {
+      background-position: 100% 50%
+    }
+    
+    100% {
+      background-position: 0% 50%
+    }
+  }
 
 .menu_list{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    padding: 20px;
 }
 
 .menu_tab{
@@ -36,6 +58,9 @@
         object-fit: cover;
         border-radius: 50%;
         margin-right: 2px;
+    }
+    span{
+      margin-left: 5px;
     }
 }
 
@@ -54,7 +79,7 @@
     padding: 0 1rem;
     margin: 0 auto;
 }
-  
+
   .text-center {
     text-align: center;
   }
@@ -63,7 +88,7 @@
     font-size: 18px;
     margin: 10px 0;
   }
-  
+
   .section-heading {
     font-size: 3rem;
     color: orange;
@@ -79,30 +104,30 @@
     font-size: 18px;
     margin: 0;
   }
-  
+
   #trending {
     padding: 4rem 0;
   }
-  
+
   #tranding .tranding-slider {
     height: 52rem;
     padding: 2rem 0;
     position: relative;
     color: white;
   }
-  
+
   @media (max-width:500px) {
     #tranding .tranding-slider {
       height: 45rem;
     }
   }
-  
+
   .tranding-slide {
     width: 37rem;
     height: 42rem;
     position: relative;
   }
-  
+
   @media (max-width:500px) {
     .tranding-slide {
       width: 28rem !important;
@@ -113,14 +138,14 @@
       height: 36rem !important;
     }
   }
-  
+
   .tranding-slide .tranding-slide-img img {
     width: 37rem;
     height: 42rem;
     border-radius: 2rem;
     object-fit: cover;
   }
-  
+
   .tranding-slide .tranding-slide-content {
     position: absolute;
     left: 0;
@@ -128,36 +153,36 @@
     right: 0;
     bottom: 0;
   }
-  
+
   .tranding-slide-content .food-price {
     position: absolute;
     top: 2rem;
     right: 2rem;
     color: var(--white);
   }
-  
+
   .tranding-slide-content .tranding-slide-content-bottom {
     position: absolute;
     bottom: 2rem;
     left: 2rem;
     color: var(--white);
   }
-  
+
   .food-rating {
     padding-top: 1rem;
     display: flex;
     gap: 1rem;
   }
-  
+
   .rating ion-icon {
     color: var(--primary);
   }
-  
+
   .swiper-slide-shadow-left,
   .swiper-slide-shadow-right {
     display: none;
   }
-  
+
   .tranding-slider-control {
     position: relative;
     bottom: 2rem;
@@ -166,40 +191,40 @@
     justify-content: center;
     height: 25px;
   }
-  
+
   .tranding-slider-control .swiper-button-next {
     left: 58% !important;
     transform: translateX(-58%) !important;
   }
-  
+
   @media (max-width:990px) {
     .tranding-slider-control .swiper-button-next {
       left: 70% !important;
       transform: translateX(-70%) !important;
     }
   }
-  
+
   @media (max-width:450px) {
     .tranding-slider-control .swiper-button-next {
       left: 80% !important;
       transform: translateX(-80%) !important;
     }
   }
-  
+
   @media (max-width:990px) {
     .tranding-slider-control .swiper-button-prev {
       left: 30% !important;
       transform: translateX(-30%) !important;
     }
   }
-  
+
   @media (max-width:450px) {
     .tranding-slider-control .swiper-button-prev {
       left: 20% !important;
       transform: translateX(-20%) !important;
     }
   }
-  
+
   .tranding-slider-control .slider-arrow {
     background: var(--white);
     width: 3.5rem;
@@ -209,20 +234,20 @@
     transform: translateX(-42%);
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
   }
-  
+
   .tranding-slider-control .slider-arrow ion-icon {
     font-size: 2rem;
     color: #222224;
   }
-  
+
   .tranding-slider-control .slider-arrow::after {
     content: '';
   }
-  
+
   .tranding-slider-control .swiper-pagination .swiper-pagination-bullet {
     filter: drop-shadow(0px 8px 24px rgba(18, 28, 53, 0.1));
   }
-  
+
   .tranding-slider-control .swiper-pagination .swiper-pagination-bullet-active {
     background: var(--primary);
   }
@@ -230,34 +255,34 @@
   .arrow_icon{
     font-size: 28px;
   }
-  
+
   @media(max-width:850px){
   .container {
       max-width: 124rem;
       padding: 0 1rem;
       margin: 0 auto;
   }
-    
+
     .text-center {
       text-align: center;
     }
-  
+
     .section-subheading{
       font-size: 18px;
       margin: 10px 0;
     }
-    
+
     .section-heading {
       font-size: 3rem;
       color: orange;
       margin: 15px 0;
     }
-  
+
     .food-name{
       font-size: 24px;
       margin: 0;
     }
-  
+
     .food-rating{
       font-size: 18px;
       margin: 0;
@@ -267,7 +292,7 @@
       width: 30rem;
       height: 38rem;
     }
-    
+
     .tranding-slide .tranding-slide-img img {
       width: 30rem;
       height: 38rem;

@@ -4,8 +4,7 @@
             <div class="slider_ex">
                 <section id="tranding">
                     <div class="container">
-                      <h3 class="text-center section-subheading">Popular Items</h3>
-                      <h1 class="text-center section-heading">Trending food</h1>
+                      <h1 class="text-center section-heading">Trending Items</h1>
                     </div>
                     <div class="container">
                       <div class="swiper tranding-slider">
@@ -15,7 +14,7 @@
                               <img [src]="'../../../assets/images/'+ item.foodImage" alt="Tranding">
                             </div>
                             <div class="tranding-slide-content">
-                              <!-- <h1 class="food-price">{{item.foodPrice}}</h1> -->
+                              <h1 class="food-price">{{item.foodPrice}}</h1>
                               <div class="tranding-slide-content-bottom">
                                 <h2 class="food-name">
                                   {{item.foodName}}
@@ -49,15 +48,15 @@
                     </div>
                 </section>
             </div>
-
-            <h2>Our Menu</h2>
+            <div class="menu_title"><h2 class="mat-elevation-z8">Our Menu</h2></div>
+            
             <div class="menu_list" id="menu_list">  
               <mat-tab-group class="menu_list_mat_group" *ngIf="restaurantMenu.length">
                 <mat-tab *ngFor="let menu of restaurantMenu, let i = index">
                   <ng-template mat-tab-label>
                     <div class="menu_tab">
                       <img [src]="'../../../assets/images/menu-tab/'+ menuTabImages[i]" alt="Restaurant Image" class="tab-img">
-                      <span>{{ menu.menuType }}</span>
+                      <span>{{ menu.menuName }}</span>
                     </div>
                   </ng-template>
                   <app-menu-items [menuItems]="menu.menuList"></app-menu-items>

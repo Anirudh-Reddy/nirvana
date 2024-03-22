@@ -1,6 +1,7 @@
 [
   {
       "menuType": "starters",
+      "menuName": "Starters",
       "menuList": [
           {
               "itemName": "Chicken Samosa",
@@ -114,6 +115,7 @@
   },
   {
       "menuType": "soups",
+      "menuName": "Soups",
       "menuList": [
           {
               "itemName": "Lemon Coriander Soup",
@@ -149,6 +151,7 @@
   },
   {
       "menuType": "mainDishes",
+      "menuName": "Main Dishes",
       "menuList": [
           {
               "itemName": "Tandoori Chicken",
@@ -220,6 +223,7 @@
   },
   {
       "menuType": "vegetarian",
+      "menuName": "Vegetarian",
       "menuList": [
           {
               "itemName": "Nirvana Shahi Paneer",
@@ -357,6 +361,7 @@
   },
   {
       "menuType": "jainFood",
+      "menuName": "Jainfood",
       "menuList": [
           {
               "itemName": "Paneer Tikka Masala",
@@ -410,6 +415,7 @@
   },
   {
       "menuType": "chicken",
+      "menuName": "Chicken",
       "menuList": [
           {
               "itemName": "Butter Chicken",
@@ -475,6 +481,7 @@
   },
   {
       "menuType": "lambAndGoat",
+      "menuName": "Lamb and Goat",
       "menuList": [
           {
               "itemName": "Goat Pepper Fry",
@@ -546,6 +553,7 @@
   },
   {
       "menuType": "seafood",
+      "menuName": "Seafood",
       "menuList": [
           {
               "itemName": "Shrimp Korma",
@@ -593,6 +601,7 @@
   },
   {
       "menuType": "bread",
+      "menuName": "Bread",
       "menuList": [
           {
               "itemName": "Garlic Naan",
@@ -658,6 +667,7 @@
   },
   {
       "menuType": "biriyani",
+      "menuName": "Biryani",
       "menuList": [
           {
               "itemName": "Special House Biryani",
@@ -705,6 +715,7 @@
   },
   {
       "menuType": "dessert",
+      "menuName": "Dessert",
       "menuList": [
           {
               "itemName": "Gulab Jam",
@@ -740,6 +751,7 @@
   },
   {
       "menuType": "drinks",
+      "menuName": "Drinks",
       "menuList": [
           {
               "itemName": "Strawberry Lassi",

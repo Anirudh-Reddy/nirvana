@@ -7,14 +7,11 @@
     background: linear-gradient(to top, #004e92, #000428);
   }
 
-  
-  .bg-toggle{
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 
+  .bg-toggle{
+    background: linear-gradient(to right, #03030a, #20102a);
   }
-  
+
   .home_container{
     padding: 0 50px;
     height: 70%;
@@ -73,18 +70,18 @@
       overflow: hidden;
       max-width: 460px;
   }
-  
+
   .home_right > img{
       position: absolute;
       object-fit: cover;
       width: 100%;
   }
-  
+
   .chakr{
       animation: spin 20s linear infinite;
       border-radius: 50%;
   }
-  
+
   @keyframes spin {
       0% {
         transform: rotate(0deg);
@@ -94,7 +91,7 @@
       }
     }
 
-@media(max-width:850px){  
+@media(max-width:850px){
   .home_container{
     min-height: 600px;
     display: flex;

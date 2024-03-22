@@ -6,7 +6,7 @@ body { margin: 0;}
 body {
     transition: background-color 0.3s ease;
   }
-  
+
 .dark-mode {
     background-color: black;
 }
@@ -50,8 +50,8 @@ html {
 
 .bg-dark{
     background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: linear-gradient(to right, #434343, #000000);
+    background: -webkit-linear-gradient(to right, #03030a, #20102a);
+    background: linear-gradient(to right,  #03030a, #20102a);
     color: white;
     .swiper-pagination-bullet {
         background-color: white !important;
@@ -68,10 +68,6 @@ html {
         width: 10px !important;
         border-color: white !important;
     }
-}
-
-.mat-mdc-tab-group{
-    padding: 0 15px;
 }
 
 .mdc-tab-indicator--active{

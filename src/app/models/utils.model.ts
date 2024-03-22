@@ -30,7 +30,7 @@ const popularItems = [
       foodName: 'Tandoori Chicken',
       foodPrice: '$18',
       foodRating: 4.8,
-      foodImage: 'popular/tandooriChicken.jpg'
+      foodImage: 'popular/chickenTandoori.webp'
     },
     {
       foodName: 'Bullet Naan',

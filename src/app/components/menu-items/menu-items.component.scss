@@ -24,14 +24,16 @@
 
 .bg-shadow-toggle{
     box-shadow: 2px 2px 4px rgba(117, 117, 117, 0.8), -2px -2px 4px rgba(117, 117, 117, 0.8);
-    box-shadow: 2px 2px 4px rgba(0, 255, 236, 0.8), -2px -2px 4px rgba(0, 255, 236, 0.8);
+}
+
+.menu_item_content:hover{
+    box-shadow: 2px 2px 4px gold, -2px -2px 4px gold;
 }
 
 
 .menu_item:hover{
     cursor: pointer;
     transition: 0.1s ease;
-    transform: scale(1.02);
 }
 
 .r1{
