@@ -21,6 +21,12 @@ const popularItems = [
       foodImage: 'popular/butterChicken.jpg'
     },
     {
+      foodName: 'Malai Kabob',
+      foodPrice: '$12',
+      foodRating: 4.8,
+      foodImage: 'popular/malaiKabob.jpg'
+    },
+    {
       foodName: 'Tandoori Chicken',
       foodPrice: '$18',
       foodRating: 4.8,
@@ -61,12 +67,6 @@ const popularItems = [
       foodPrice: '$12',
       foodRating: 4.8,
       foodImage: 'popular/vegManchurian.jpeg'
-    },
-    {
-      foodName: 'Malai Kabob',
-      foodPrice: '$12',
-      foodRating: 4.8,
-      foodImage: 'popular/malaiKabob.jpg'
     }
   ]
 

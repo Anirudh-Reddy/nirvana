@@ -69,3 +69,24 @@ html {
         border-color: white !important;
     }
 }
+
+.mat-mdc-tab-group{
+    padding: 0 15px;
+}
+
+.mdc-tab-indicator--active{
+    .mat-mdc-tab-ripple{
+        background: white;
+        border-radius: 10px;
+    }
+    .mdc-tab__content{
+        .menu_tab{
+            color: black;
+        }
+    }
+    .mdc-tab-indicator{
+        .mdc-tab-indicator__content--underline{
+            border: none;
+        }
+    }
+}
