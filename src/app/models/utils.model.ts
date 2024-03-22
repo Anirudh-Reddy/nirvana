@@ -21,22 +21,22 @@ const popularItems = [
       foodImage: 'popular/butterChicken.jpg'
     },
     {
+      foodName: 'Tandoori Chicken',
+      foodPrice: '$18',
+      foodRating: 4.8,
+      foodImage: 'popular/tandooriChicken.jpg'
+    },
+    {
+      foodName: 'Bullet Naan',
+      foodPrice: '$6',
+      foodRating: 4.8,
+      foodImage: 'popular/bulletNaan.jpg'
+    },
+    {
       foodName: 'Chicken Tikka Masala',
       foodPrice: '$18',
       foodRating: 4.9,
       foodImage: 'popular/chickenTikkaMasala.jpg'
-    },
-    {
-      foodName: 'Chilli Chicken',
-      foodPrice: '$10',
-      foodRating: 4.8,
-      foodImage: 'popular/chiliChicken.jpg'
-    },
-    {
-      foodName: 'Chilli Fish',
-      foodPrice: '$13',
-      foodRating: 4.8,
-      foodImage: 'popular/chilliFish.jpg'
     },
     {
       foodName: 'Onion Pakora',
@@ -51,16 +51,22 @@ const popularItems = [
       foodImage: 'popular/paneerTikkaMasala.jpg'
     },
     {
-      foodName: 'Strawberry Lassi',
+      foodName: 'Orange Kulf',
       foodPrice: '$8',
       foodRating: 4.9,
-      foodImage: 'popular/strawberryLassi.jpeg'
+      foodImage: 'popular/orangeKulf.jpg'
     },
     {
       foodName: 'Veg Manchurian',
       foodPrice: '$12',
       foodRating: 4.8,
       foodImage: 'popular/vegManchurian.jpeg'
+    },
+    {
+      foodName: 'Malai Kabob',
+      foodPrice: '$12',
+      foodRating: 4.8,
+      foodImage: 'popular/malaiKabob.jpg'
     }
   ]
 
