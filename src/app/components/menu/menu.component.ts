@@ -11,6 +11,7 @@ import restaurantMenu from '../../models/restaurant-menu.json';
 import { CommonModule } from '@angular/common';
 import {MatButtonModule} from '@angular/material/button';
 import {MatSidenavModule} from '@angular/material/sidenav';
+import { popularItems, menuTabImages } from '../../models/utils.model';
 
 @Component({
   selector: 'app-menu',
@@ -21,69 +22,15 @@ import {MatSidenavModule} from '@angular/material/sidenav';
 })
 export class MenuComponent implements OnInit{
   public restaurantMenu:any = {};
-  public menuTabImages = [
-    'appetizers.jpg',
-    'soups.jpg',
-    'tandoor.jpg',
-    'vegetarian.jpg',
-    'jain-food-animated-icon.png',
-    'chicken-curry-animated-icon.png',
-    'lamb.jpg',
-    'seafood.jpg',
-    'naan.jpg',
-    'biriyani.jpg',
-    'dessert.jpg',
-    'beverages.jpg'
-  ]
-  public popularItems = [
-    {
-      foodName: 'Special Pizza',
-      foodPrice: '$20',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-1.png'
-    },
-    {
-      foodName: 'Meat Ball',
-      foodPrice: '$20',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-2.png'
-    },
-    {
-      foodName: 'Burger',
-      foodPrice: '$40',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-3.png'
-    },
-    {
-      foodName: 'Fish Curry',
-      foodPrice: '$15',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-4.png'
-    },
-    {
-      foodName: 'Pan Cake',
-      foodPrice: '$15',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-5.png'
-    },
-    {
-      foodName: 'Vanilla Cake',
-      foodPrice: '$20',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-6.png'
-    },
-    {
-      foodName: 'Blueberry Cake',
-      foodPrice: '$8',
-      foodRating: 4.5,
-      foodImage: 'tranding-food-7.png'
-    }
-  ];
+  public menuTabImages:any = []
+  public popularItems:any = [];
   
   constructor(){}
    
   ngOnInit(): void {
    this.restaurantMenu = restaurantMenu;
+   this.menuTabImages = menuTabImages;
+   this.popularItems = popularItems;
    setTimeout(()=>{
     const swiper = new Swiper('.tranding-slider', {
       modules: [Navigation, Pagination, EffectCoverflow],
@@ -108,7 +55,13 @@ export class MenuComponent implements OnInit{
       }
     });
    },10);
-   
   }
   
+  getStarIcons(rating: number): string[] {
+    const fullStars = Math.floor(rating);
+    const halfStar = rating % 1 >= 0.5 ? 1 : 0;
+    const emptyStars = 5 - fullStars - halfStar;
+    return Array(fullStars).fill('star').concat(halfStar ? ['star_half'] : []).concat(Array(emptyStars).fill('star_border'));
+  }
+
 }

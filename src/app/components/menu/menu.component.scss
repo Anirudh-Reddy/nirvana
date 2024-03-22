@@ -26,10 +26,6 @@
     width: 100%;
 }
 
-.menu_list_mat_group{
-    // padding: 0 15px;
-}
-
 .menu_tab{
     display: flex;
     align-items: center;
@@ -234,14 +230,8 @@
   .arrow_icon{
     font-size: 28px;
   }
-
-
-  @media(min-width:851px){
-  
-  }
   
   @media(max-width:850px){
-
   .container {
       max-width: 124rem;
       padding: 0 1rem;
@@ -282,8 +272,4 @@
       width: 30rem;
       height: 38rem;
     }
-  }
-  
-  @media(max-width:550px){
-  
   }
