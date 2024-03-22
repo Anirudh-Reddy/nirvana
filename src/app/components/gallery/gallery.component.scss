@@ -2,14 +2,14 @@
     padding-bottom: 100px;
     h2{
         text-align: center;
-        color: #0e0a05;
+        color: white;
         font-size: 3rem;
         margin: 0;
-        background: #bdc3c7;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        padding: 50px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+      background: #4ECDC4;
+      background: -webkit-linear-gradient(to right, #556270, #4ECDC4);
+      background: linear-gradient(to right, #556270, #4ECDC4);
+      padding: 50px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     }
 }
 
@@ -37,7 +37,7 @@
     img{
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
         width: 300px;
-        height: 250px;    
+        height: 250px;
     }
 }
 
@@ -55,13 +55,13 @@
 @media(max-width:850px){
     .g_i_card > img{
         width: 280px;
-        height: 230px;    
+        height: 230px;
     }
 }
 
 @media(max-width:550px){
     .g_i_card > img{
         width: 100%;
-        height: auto;    
+        height: auto;
     }
 }

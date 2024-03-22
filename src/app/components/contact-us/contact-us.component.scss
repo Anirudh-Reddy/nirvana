@@ -1,7 +1,8 @@
 #contact-us{
     background: #232526;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to right, #40294d, #20102a, #000000);
+    background: linear-gradient(to right, #40294d, #20102a, #0f0c29);
+
 }
 
 .contactus_container{
@@ -57,7 +58,7 @@
 }
 
 .d1>h4{
-    margin: 7px 0; 
+    margin: 7px 0;
 }
 
 .d1>p{
@@ -100,16 +101,16 @@
         padding: 20px;
         font-size: 1.45rem;
     }
-    
+
     .contactus_container > h3{
         font-size: 2.2rem;
         margin: 10px 0;
     }
-    
+
     .contactus_content{
         font-size: 12px;
     }
-    
+
     .ctus_r1{
         margin: 0 auto;
         width: 50%;
@@ -118,49 +119,49 @@
         text-align: center;
         border-right: 1px solid greenyellow;
     }
-    
+
     .ctus_r1 > h3{
         margin: 10px 0;
     }
-    
+
     .ctus_r1 > p{
         margin: 5px 0;
     }
-    
+
     .ctus_r2{
         width: 50%;
         height: 100%;
         text-align: center;
         min-height: 200px;
     }
-    
+
     .ctus_r2 > h3{
         margin: 10px 0;
     }
-    
+
     .d1{
-    
+
     }
-    
+
     .d1>h4{
-        margin: 10px 0 0 0; 
+        margin: 10px 0 0 0;
     }
-    
+
     .d1>p{
         margin: 0px 0;
     }
-    
+
     .footer{
         display: flex;
         align-items: center;
         justify-content: center;
         margin-top: 40px;
     }
-    
+
     .p_footer{
         font-size: 14px;
     }
-    
+
     .p_footer > .logo{
         width: 180px;
         // height: 180px;
