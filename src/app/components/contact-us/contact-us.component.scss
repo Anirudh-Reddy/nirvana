@@ -63,19 +63,22 @@
     align-items: center;
     justify-content: center;
     margin-top: 40px;
+    .p_footer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        margin: 0;
+        a{
+            .logo{
+                width: 360px;
+            }
+        }
+    }
 }
 
-.p_footer{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    margin: 0;
-}
 
-.p_footer > .logo{
-    width: 360px;
-}
+
 
 @media(max-width:850px){
     .contactus_container > h3{
@@ -140,13 +143,15 @@
         align-items: center;
         justify-content: center;
         margin-top: 40px;
+        .p_footer{
+            font-size: 14px;
+            a{
+                img{
+                    width: 180px !important;
+                }
+            }
+        }
     }
 
-    .p_footer{
-        font-size: 14px;
-    }
-
-    .p_footer > .logo{
-        width: 180px;
-    }
+    
 }
