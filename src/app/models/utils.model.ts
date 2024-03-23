@@ -45,6 +45,12 @@ const popularItems = [
       foodImage: 'popular/chickenTikkaMasala.jpg'
     },
     {
+      foodName: 'Tandoori Mixed Platter',
+      foodPrice: '$28',
+      foodRating: 4.9,
+      foodImage: 'popular/tandooriMixedPlatter.jpg'
+    },
+    {
       foodName: 'Onion Pakora',
       foodPrice: '$8',
       foodRating: 4.8,
@@ -61,6 +67,18 @@ const popularItems = [
       foodPrice: '$8',
       foodRating: 4.9,
       foodImage: 'popular/orangeKulf.jpg'
+    },
+    {
+      foodName: 'Malai Kofta',
+      foodPrice: '$14.5',
+      foodRating: 4.9,
+      foodImage: 'popular/malaiKofta.jpg'
+    },
+    {
+      foodName: 'Vegetable Samosa',
+      foodPrice: '$7',
+      foodRating: 4.8,
+      foodImage: 'popular/vegetableSamosa.jpg'
     },
     {
       foodName: 'Veg Manchurian',
