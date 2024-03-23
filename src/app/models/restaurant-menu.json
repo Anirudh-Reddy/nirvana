@@ -1,796 +1,794 @@
 [
   {
-    "menuType":"starters",
-    "menuList": [
-      {
-          "itemName": "Chicken Samosa",
-          "itemDescription": "Indian pastry stuffed with ground chicken and delicately spiced",
-          "itemImage": "",
-          "itemPrice": 8
-      },
-      {
-          "itemName": "Vegetable Samosa",
-          "itemDescription": "Indian Pastry Stuffed with Potato & mild Spice",
-          "itemImage": "",
-          "itemPrice": 7
-      },  
-      {
-          "itemName": "Onion Pakora",
-          "itemDescription": "Crispy Onion Fritters",
-          "itemImage": "",
-          "itemPrice": 8
-      },  
-      {
-          "itemName": "Vegetable Pakora",
-          "itemDescription": "Mixed Crispy Vegetable Fritters",
-          "itemImage": "",
-          "itemPrice": 7
-      },  
-      {
-          "itemName": "Salmon Pakorat",
-          "itemDescription": "Pieces of Salmon dipped in delicately spiced batter and fried to golden perfection",
-          "itemImage": "",
-          "itemPrice": 13
-      },  
-      {
-          "itemName": "Papri Chat",
-          "itemDescription": "Crunchy, Tangy, hot and sweet flavors combine to make this dish delicious as a snack",
-          "itemImage": "",
-          "itemPrice": 8
-      },  
-      {
-          "itemName": "Veg Manchurian",
-          "itemDescription": "Mixed Veg balls coated in a Manchurian sauce made from scratch",
-          "itemImage": "",
-          "itemPrice": 12
-      },  
-      {
-          "itemName": "Gobi Manchurian",
-          "itemDescription": "Crispy Cauliflower in a chili garlic soy sauce",
-          "itemImage": "",
-          "itemPrice": 12
-      },  
-      {
-          "itemName": "Chilli Fish",
-          "itemDescription": "Chunks of Tilapia fish sautéed in onions and green peppers and spices",
-          "itemImage": "",
-          "itemPrice": 13
-      },  
-      {
-          "itemName": "Chilli Paneer",
-          "itemDescription": "Cottage Cheese, Sautéed Onion, Green Pepper, Into-Chineese Style",
-          "itemImage": "",
-          "itemPrice": 11
-      },  
-      {
-          "itemName": "Bhel Puri",
-          "itemDescription": "Crispy Savory Puffed Rice Snack with a touch of tamarind & mint chutney",
-          "itemImage": "",
-          "itemPrice": 7
-      },  
-      {
-          "itemName": "Samosa Chat",
-          "itemDescription": "Broken Samosa with spiced chickpeas topped with yogurt & tamarind Sauce",
-          "itemImage": "",
-          "itemPrice": 10
-      },  
-      {
-          "itemName": "Grilled Mushroom",
-          "itemDescription": "Fresh Mushrooms Marinated and Grilled in Tandoori clay oven",
-          "itemImage": "",
-          "itemPrice": 12
-      },  
-      {
-          "itemName": "Chili Chicken",
-          "itemDescription": "Fried chicken pieces in a chili, garlic, soy sauce with sautéed onions & peppers",
-          "itemImage": "",
-          "itemPrice": 10
-      },  
-      {
-          "itemName": "Chicken 65",
-          "itemDescription": "White Chicken pieces cooked in curry leaves, mustard seeds & yogurt",
-          "itemImage": "",
-          "itemPrice": 12
-      },  
-      {
-          "itemName": "Chicken Kabob",
-          "itemDescription": "Chicken Cubes grilled in the clay oven with Indian Authentic Spice",
-          "itemImage": "",
-          "itemPrice": 12
-      },  
-      {
-          "itemName": "Fish Amritsari",
-          "itemDescription": "Tilapia Pieces coated with delicately spiced gram flour batter and golden fried",
-          "itemImage": "",
-          "itemPrice": 12
-      },  
-      {
-          "itemName": "Paneer Pakora",
-          "itemDescription": "Roasted Chickpea Salad",
-          "itemImage": "",
-          "itemPrice": 11
-      }
-    ]
+      "menuType": "starters",
+      "menuName": "Starters",
+      "menuList": [
+          {
+              "itemName": "Chicken Samosa",
+              "itemDescription": "Indian pastry stuffed with ground chicken and delicately spiced",
+              "itemImage": "/menu/starters/chickenSamosa.jpg",
+              "itemPrice": 8
+          },
+          {
+              "itemName": "Vegetable Samosa",
+              "itemDescription": "Indian Pastry Stuffed with Potato & mild Spice",
+              "itemImage": "/menu/starters/vegetableSamosa.jpeg",
+              "itemPrice": 7
+          },
+          {
+              "itemName": "Onion Pakora",
+              "itemDescription": "Crispy Onion Fritters",
+              "itemImage": "/menu/starters/onionPakora.jpeg",
+              "itemPrice": 8
+          },
+          {
+              "itemName": "Vegetable Pakora",
+              "itemDescription": "Mixed Crispy Vegetable Fritters",
+              "itemImage": "/menu/starters/vegetablePakora.jpg",
+              "itemPrice": 7
+          },
+          {
+              "itemName": "Salmon Pakorat",
+              "itemDescription": "Pieces of Salmon dipped in delicately spiced batter and fried to golden perfection",
+              "itemImage": "/menu/starters/salmonPakorat.jpeg",
+              "itemPrice": 13
+          },
+          {
+              "itemName": "Papri Chat",
+              "itemDescription": "Crunchy, Tangy, hot and sweet flavors combine to make this dish delicious as a snack",
+              "itemImage": "/menu/starters/papriChat.jpeg",
+              "itemPrice": 8
+          },
+          {
+              "itemName": "Veg Manchurian",
+              "itemDescription": "Mixed Veg balls coated in a Manchurian sauce made from scratch",
+              "itemImage": "/menu/starters/vegManchurian.jpeg",
+              "itemPrice": 12
+          },
+          {
+              "itemName": "Gobi Manchurian",
+              "itemDescription": "Crispy Cauliflower in a chili garlic soy sauce",
+              "itemImage": "/menu/starters/gobiManchurian.jpg",
+              "itemPrice": 12
+          },
+          {
+              "itemName": "Chilli Fish",
+              "itemDescription": "Chunks of Tilapia fish sautéed in onions and green peppers and spices",
+              "itemImage": "/menu/starters/chilliFish.jpg",
+              "itemPrice": 13
+          },
+          {
+              "itemName": "Chilli Paneer",
+              "itemDescription": "Cottage Cheese, Sautéed Onion, Green Pepper, Into-Chineese Style",
+              "itemImage": "/menu/starters/chilliPaneer.jpg",
+              "itemPrice": 11
+          },
+          {
+              "itemName": "Bhel Puri",
+              "itemDescription": "Crispy Savory Puffed Rice Snack with a touch of tamarind & mint chutney",
+              "itemImage": "/menu/starters/bhelPuri.jpg",
+              "itemPrice": 7
+          },
+          {
+              "itemName": "Samosa Chat",
+              "itemDescription": "Broken Samosa with spiced chickpeas topped with yogurt & tamarind Sauce",
+              "itemImage": "/menu/starters/samosaChat.jpg",
+              "itemPrice": 10
+          },
+          {
+              "itemName": "Grilled Mushroom",
+              "itemDescription": "Fresh Mushrooms Marinated and Grilled in Tandoori clay oven",
+              "itemImage": "/menu/starters/grilledMushroom.jpg",
+              "itemPrice": 12
+          },
+          {
+              "itemName": "Chili Chicken",
+              "itemDescription": "Fried chicken pieces in a chili, garlic, soy sauce with sautéed onions & peppers",
+              "itemImage": "/menu/starters/chiliChicken.jpg",
+              "itemPrice": 10
+          },
+          {
+              "itemName": "Chicken 65",
+              "itemDescription": "White Chicken pieces cooked in curry leaves, mustard seeds & yogurt",
+              "itemImage": "/menu/starters/chicken65.jpg",
+              "itemPrice": 12
+          },
+          {
+              "itemName": "Chicken Kabob",
+              "itemDescription": "Chicken Cubes grilled in the clay oven with Indian Authentic Spice",
+              "itemImage": "/menu/starters/chickenKabob.jpg",
+              "itemPrice": 12
+          },
+          {
+              "itemName": "Fish Amritsari",
+              "itemDescription": "Tilapia Pieces coated with delicately spiced gram flour batter and golden fried",
+              "itemImage": "/menu/starters/fishAmritsari.jpg",
+              "itemPrice": 12
+          },
+          {
+              "itemName": "Paneer Pakora",
+              "itemDescription": "Roasted Chickpea Salad",
+              "itemImage": "/menu/starters/paneerPakora.jpg",
+              "itemPrice": 11
+          }
+      ]
   },
   {
-    "menuType":"soups",
-    "menuList":  [
-      {
-          "itemName": "Lemon Coriander Soup",
-          "itemDescription": "",
-          "itemImage": "",
-          "itemPrice": 6
-      },
-      {
-          "itemName": "Tomato Soup",
-          "itemDescription": "",
-          "itemImage": "",
-          "itemPrice": 6
-      },
-      {
-          "itemName": "Mulligatawny Soup Veg",
-          "itemDescription": "Lentil soup with ground veggies",
-          "itemImage": "",
-          "itemPrice": 6
-      },
-      {
-          "itemName": "Mulligatawny Soup Chicken",
-          "itemDescription": "Lentil Soup with Chicken",
-          "itemImage": "",
-          "itemPrice": 7
-      },
-      {
-          "itemName": "Chicken Soup",
-          "itemDescription": "",
-          "itemImage": "",
-          "itemPrice": 6
-      }
-    ]
+      "menuType": "soups",
+      "menuName": "Soups",
+      "menuList": [
+          {
+              "itemName": "Lemon Coriander Soup",
+              "itemDescription": "",
+              "itemImage": "/menu/soups/lemonCorianderSoup.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Tomato Soup",
+              "itemDescription": "",
+              "itemImage": "/menu/soups/tomatoSoup.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Mulligatawny Soup Veg",
+              "itemDescription": "Lentil soup with ground veggies",
+              "itemImage": "/menu/soups/mulligatawnySoupVeg.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Mulligatawny Soup Chicken",
+              "itemDescription": "Lentil Soup with Chicken",
+              "itemImage": "/menu/soups/mulligatawnySoupChicken.jpg",
+              "itemPrice": 7
+          },
+          {
+              "itemName": "Chicken Soup",
+              "itemDescription": "",
+              "itemImage": "/menu/soups/chickenSoup.jpg",
+              "itemPrice": 6
+          }
+      ]
   },
   {
-    "menuType":"mainDishes",
-    "menuList": [
-      {
-          "itemName": "Tandoori Chicken",
-          "itemDescription": "Chicken with bone marinated & spiced overnight, broiled in clay oven",
-          "itemImage": "",
-          "itemPrice": 18
-      },
-      {
-          "itemName": "Lamb Chops",
-          "itemDescription": "Lamb Chops served with yogurt, ginger & garlic marinade, grilled in clay oven",
-          "itemImage": "",
-          "itemPrice": 27
-      },
-      {
-          "itemName": "Tandoori Salmon",
-          "itemDescription": "Salmon Marinated with ginger & paprika served with grilled asparagus",
-          "itemImage": "",
-          "itemPrice": 24
-      },
-      {
-          "itemName": "Tiger Shrimp",
-          "itemDescription": "Jumbo Tiger Shrimp marinated overnight with cumin & coriander spice, grilled in clay oven",
-          "itemImage": "",
-          "itemPrice": 24
-      },
-      {
-          "itemName": "Malai Kabob",
-          "itemDescription": "Chicken Tender cubes marinated in mild creamy spice, grilled in clay oven",
-          "itemImage": "",
-          "itemPrice": 18
-      },
-      {
-          "itemName": "Chicken Tikka",
-          "itemDescription": "Boneless Chicken Breast Cubes marinated overnight with chefs special spice, grilled in clay oven",
-          "itemImage": "",
-          "itemPrice": 18
-      },
-      {
-          "itemName": "Chicken Lasooni Kabob",
-          "itemDescription": "Boneless Chicken Kabob grilled with garlic flavor",
-          "itemImage": "",
-          "itemPrice": 19
-      },
-      {
-          "itemName": "Lamb Seekh Kabob",
-          "itemDescription": "Ground lamb marinated with herbs & spices, grilled in clay oven",
-          "itemImage": "",
-          "itemPrice": 20
-      },
-      {
-          "itemName": "Tandoori Mixed Platter",
-          "itemDescription": "Combination of tandoori chicken, salmon, shrimp, chicken tikka, and lamb seekh kabob",
-          "itemImage": "",
-          "itemPrice": 28
-      },
-      {
-          "itemName": "Paneer Tandoori",
-          "itemDescription": "",
-          "itemImage": "",
-          "itemPrice": 16
-      },
-      {
-          "itemName": "Lamb Chop Korma",
-          "itemDescription": "Lamb Chop in Korma Sauce - chef special",
-          "itemImage": "",
-          "itemPrice": 28
-      }
-    ]
+      "menuType": "mainDishes",
+      "menuName": "Main Dishes",
+      "menuList": [
+          {
+              "itemName": "Tandoori Chicken",
+              "itemDescription": "Chicken with bone marinated & spiced overnight, broiled in clay oven",
+              "itemImage": "/menu/mainDishes/tandooriChicken.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Lamb Chops",
+              "itemDescription": "Lamb Chops served with yogurt, ginger & garlic marinade, grilled in clay oven",
+              "itemImage": "/menu/mainDishes/lambChops.jpg",
+              "itemPrice": 27
+          },
+          {
+              "itemName": "Tandoori Salmon",
+              "itemDescription": "Salmon Marinated with ginger & paprika served with grilled asparagus",
+              "itemImage": "/menu/mainDishes/tandooriSalmon.jpeg",
+              "itemPrice": 24
+          },
+          {
+              "itemName": "Tiger Shrimp",
+              "itemDescription": "Jumbo Tiger Shrimp marinated overnight with cumin & coriander spice, grilled in clay oven",
+              "itemImage": "/menu/mainDishes/tigerShrimp.jpeg",
+              "itemPrice": 24
+          },
+          {
+              "itemName": "Malai Kabob",
+              "itemDescription": "Chicken Tender cubes marinated in mild creamy spice, grilled in clay oven",
+              "itemImage": "/menu/mainDishes/malaiKabob.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Chicken Tikka",
+              "itemDescription": "Boneless Chicken Breast Cubes marinated overnight with chefs special spice, grilled in clay oven",
+              "itemImage": "/menu/mainDishes/chickenTikka.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Chicken Lasooni Kabob",
+              "itemDescription": "Boneless Chicken Kabob grilled with garlic flavor",
+              "itemImage": "/menu/mainDishes/chickenLasooniKabob.jpg",
+              "itemPrice": 19
+          },
+          {
+              "itemName": "Lamb Seekh Kabob",
+              "itemDescription": "Ground lamb marinated with herbs & spices, grilled in clay oven",
+              "itemImage": "/menu/mainDishes/lambSeekhKabob.jpg",
+              "itemPrice": 20
+          },
+          {
+              "itemName": "Tandoori Mixed Platter",
+              "itemDescription": "Combination of tandoori chicken, salmon, shrimp, chicken tikka, and lamb seekh kabob",
+              "itemImage": "/menu/mainDishes/tandooriMixedPlatter.jpg",
+              "itemPrice": 28
+          },
+          {
+              "itemName": "Paneer Tandoori",
+              "itemDescription": "",
+              "itemImage": "/menu/mainDishes/paneerTandoori.jpg",
+              "itemPrice": 16
+          },
+          {
+              "itemName": "Lamb Chop Korma",
+              "itemDescription": "Lamb Chop in Korma Sauce - chef special",
+              "itemImage": "/menu/mainDishes/lambChopKorma.jpg",
+              "itemPrice": 28
+          }
+      ]
   },
   {
-    "menuType":"vegetarian",
-    "menuList": [
-      {
-        "itemName": "Nirvana Shahi Paneer",
-        "itemDescription": "Nirvana Special. Shredded cottage cheese in a mildly spiced creamy Korma sauce",
-        "itemImage": "",
-        "itemPrice": 17.50
-      },
-      {
-        "itemName": "Paneer Tikka Masala",
-        "itemDescription": "Homemade cottage cheese with a tomato creamy sauce",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Navaratna Korma",
-        "itemDescription": "Fresh Mixed vegetable in a mild creamy sauce",
-        "itemImage": "",
-        "itemPrice": 16
-      },
-      {
-        "itemName": "Kadhai Paneer",
-        "itemDescription": "Cottage Cheese cooked with tomatoes and bell peppers with freshly ground spices",
-        "itemImage": "",
-        "itemPrice": 16
-      },
-      {
-        "itemName": "Saag Paneer",
-        "itemDescription": "Fresh Chopped spinach & cottage cheese cooked in authentic Punjabi style",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      {
-        "itemName": "Alu Gobi",
-        "itemDescription": "Fresh cauliflower & potato with onion, tomato & spices",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      {
-        "itemName": "Gobi Matar",
-        "itemDescription": "Fresh cauliflower, green peas, fresh tomatoes & spices",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      {
-        "itemName": "Nirvana Yellow Dal",
-        "itemDescription": "Yellow lentils cooked with chef special home ingredients & herbs",
-        "itemImage": "",
-        "itemPrice": 14.50
-      }, 
-      {
-        "itemName": "Chana Masala",
-        "itemDescription": "Chickpeas, mild spices with ginger and garlic",
-        "itemImage": "",
-        "itemPrice": 13
-      },  
-      {
-        "itemName": "Malai Kofta",
-        "itemDescription": "Cottage cheese with potato balls, stuffed with fresh cream in a mild sauce",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      
-      {
-        "itemName": "Dal Makhni",
-        "itemDescription": "Green Lentils & black beans slow simmered, lightly sautéed with ginger, garlic and onions",
-        "itemImage": "",
-        "itemPrice": 16
-      },
-      
-      {
-        "itemName": "Baigan Bharta",
-        "itemDescription": "Roasted eggplant, ground and cooked with mild spices",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      
-      {
-        "itemName": "Matar Paneer",
-        "itemDescription": "Cottage cheese with fresh green peas, cooked in onion & fresh tomato (No Cream)",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      
-      {
-        "itemName": "Paneer Kalimirch",
-        "itemDescription": "Homemade cottage cheese cubes in a creamy peppery sauce",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      
-      {
-        "itemName": "Alu Saag",
-        "itemDescription": "Fresh chopped spinach, potatoes with a touch of cream",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      
-      {
-        "itemName": "Chana Saag",
-        "itemDescription": "Fresh Chopped Spinach, Chickpeas & Spices",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      
-      {
-        "itemName": "Alu Matar",
-        "itemDescription": "Green peas, potatoes & fresh tomatoes",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      
-      {
-        "itemName": "Veg Makhani",
-        "itemDescription": "Mix Vegetables prepared in a creamy tomato sauce with a touch of butter",
-        "itemImage": "",
-        "itemPrice": 15
-      },
-      
-      {
-        "itemName": "Veg Vindaloo",
-        "itemDescription": "Mix vegetables in a traditional Indian sauce",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      
-      {
-        "itemName": "Veg Jalfrazi",
-        "itemDescription": "Mixed vegetables cooked with onions green peppers and tomatoes",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      
-      {
-        "itemName": "Jeera Aloo",
-        "itemDescription": "A popular Indian dish. Potatoes spiced with Cumin seeds and herbs",
-        "itemImage": "",
-        "itemPrice": 14
-      },
-      
-      {
-        "itemName": "Bhindi Masala",
-        "itemDescription": "Okra sautéed with onions, tomatoes and Indian spices",
-        "itemImage": "",
-        "itemPrice": 14.50
-      }
-    ]
+      "menuType": "vegetarian",
+      "menuName": "Vegetarian",
+      "menuList": [
+          {
+              "itemName": "Nirvana Shahi Paneer",
+              "itemDescription": "Nirvana Special. Shredded cottage cheese in a mildly spiced creamy Korma sauce",
+              "itemImage": "/menu/vegetarian/nirvanaShahiPaneer.jpg",
+              "itemPrice": 17.5
+          },
+          {
+              "itemName": "Paneer Tikka Masala",
+              "itemDescription": "Homemade cottage cheese with a tomato creamy sauce",
+              "itemImage": "/menu/vegetarian/paneerTikkaMasala.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Navaratna Korma",
+              "itemDescription": "Fresh Mixed vegetable in a mild creamy sauce",
+              "itemImage": "/menu/vegetarian/navaratnaKorma.jpg",
+              "itemPrice": 16
+          },
+          {
+              "itemName": "Kadhai Paneer",
+              "itemDescription": "Cottage Cheese cooked with tomatoes and bell peppers with freshly ground spices",
+              "itemImage": "/menu/vegetarian/kadhaiPaneer.jpg",
+              "itemPrice": 16
+          },
+          {
+              "itemName": "Saag Paneer",
+              "itemDescription": "Fresh Chopped spinach & cottage cheese cooked in authentic Punjabi style",
+              "itemImage": "/menu/vegetarian/saagPaneer.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Alu Gobi",
+              "itemDescription": "Fresh cauliflower & potato with onion, tomato & spices",
+              "itemImage": "/menu/vegetarian/aluGobi.jpeg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Gobi Matar",
+              "itemDescription": "Fresh cauliflower, green peas, fresh tomatoes & spices",
+              "itemImage": "/menu/vegetarian/gobiMatar.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Nirvana Yellow Dal",
+              "itemDescription": "Yellow lentils cooked with chef special home ingredients & herbs",
+              "itemImage": "/menu/vegetarian/nirvanaYellowDal.jpeg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Chana Masala",
+              "itemDescription": "Chickpeas, mild spices with ginger and garlic",
+              "itemImage": "/menu/vegetarian/chanaMasala.jpg",
+              "itemPrice": 13
+          },
+          {
+              "itemName": "Malai Kofta",
+              "itemDescription": "Cottage cheese with potato balls, stuffed with fresh cream in a mild sauce",
+              "itemImage": "/menu/vegetarian/malaiKofta.jpeg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Dal Makhni",
+              "itemDescription": "Green Lentils & black beans slow simmered, lightly sautéed with ginger, garlic and onions",
+              "itemImage": "/menu/vegetarian/dalMakhni.jpg",
+              "itemPrice": 16
+          },
+          {
+              "itemName": "Baigan Bharta",
+              "itemDescription": "Roasted eggplant, ground and cooked with mild spices",
+              "itemImage": "/menu/vegetarian/baiganBharta.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Matar Paneer",
+              "itemDescription": "Cottage cheese with fresh green peas, cooked in onion & fresh tomato (No Cream)",
+              "itemImage": "/menu/vegetarian/matarPaneer.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Paneer Kalimirch",
+              "itemDescription": "Homemade cottage cheese cubes in a creamy peppery sauce",
+              "itemImage": "/menu/vegetarian/paneerKalimirch.jpeg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Alu Saag",
+              "itemDescription": "Fresh chopped spinach, potatoes with a touch of cream",
+              "itemImage": "/menu/vegetarian/aluSaag.jpeg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Chana Saag",
+              "itemDescription": "Fresh Chopped Spinach, Chickpeas & Spices",
+              "itemImage": "/menu/vegetarian/chanaSaag.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Alu Matar",
+              "itemDescription": "Green peas, potatoes & fresh tomatoes",
+              "itemImage": "/menu/vegetarian/aluMatar.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Veg Makhani",
+              "itemDescription": "Mix Vegetables prepared in a creamy tomato sauce with a touch of butter",
+              "itemImage": "/menu/vegetarian/vegMakhani.jpg",
+              "itemPrice": 15
+          },
+          {
+              "itemName": "Veg Vindaloo",
+              "itemDescription": "Mix vegetables in a traditional Indian sauce",
+              "itemImage": "/menu/vegetarian/vegVindaloo.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Veg Jalfrazi",
+              "itemDescription": "Mixed vegetables cooked with onions green peppers and tomatoes",
+              "itemImage": "/menu/vegetarian/vegJalfrazi.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Jeera Aloo",
+              "itemDescription": "A popular Indian dish. Potatoes spiced with Cumin seeds and herbs",
+              "itemImage": "/menu/vegetarian/jeeraAloo.jpg",
+              "itemPrice": 14
+          },
+          {
+              "itemName": "Bhindi Masala",
+              "itemDescription": "Okra sautéed with onions, tomatoes and Indian spices",
+              "itemImage": "/menu/vegetarian/bhindiMasala.jpg",
+              "itemPrice": 14.5
+          }
+      ]
   },
   {
-    "menuType":"jainFood",
-    "menuList": [
-      {
-        "itemName": "Paneer Tikka Masala",
-        "itemDescription": "No Onion, No Garlic. Homemade cottage cheese with a tomato creamy sauce",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Chana Masala",
-        "itemDescription": "No Onion, No Garlic. Chickpeas, mild spices with ginger and garlic",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      {
-        "itemName": "Bhindi Masala",
-        "itemDescription": "No Onion, No Garlic. Okra sautéed with onions, tomatoes and Indian spices",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      {
-        "itemName": "Alu Gobi",
-        "itemDescription": "No Onion, No Garlic. Fresh cauliflower & potato with onion, tomato & spices",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      {
-        "itemName": "Alu Matar",
-        "itemDescription": "No Onion, No Garlic. Green peas, potatoes & fresh tomatoes",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      {
-        "itemName": "Gobi Matar",
-        "itemDescription": "No Onion, No Garlic. Fresh cauliflower, green peas, fresh tomatoes & spices",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      {
-        "itemName": "Gobi Matar",
-        "itemDescription": "No Onion, No Garlic. Fresh cauliflower, green peas, fresh tomatoes & spices",
-        "itemImage": "",
-        "itemPrice": 15.50
-      },
-      {
-        "itemName": "Nirvana Yellow Daal",
-        "itemDescription": "No Onion, No Garlic. Yellow lentils cooked with chef special home ingredients & herbs",
-        "itemImage": "",
-        "itemPrice": 14.50
-      }
-    ]
+      "menuType": "jainFood",
+      "menuName": "Jainfood",
+      "menuList": [
+          {
+              "itemName": "Paneer Tikka Masala",
+              "itemDescription": "No Onion, No Garlic. Homemade cottage cheese with a tomato creamy sauce",
+              "itemImage": "/menu/jainFood/paneerTikkaMasala.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Chana Masala",
+              "itemDescription": "No Onion, No Garlic. Chickpeas, mild spices with ginger and garlic",
+              "itemImage": "/menu/jainFood/chanaMasala.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Bhindi Masala",
+              "itemDescription": "No Onion, No Garlic. Okra sautéed with onions, tomatoes and Indian spices",
+              "itemImage": "/menu/jainFood/bhindiMasala.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Alu Gobi",
+              "itemDescription": "No Onion, No Garlic. Fresh cauliflower & potato with onion, tomato & spices",
+              "itemImage": "/menu/jainFood/aluGobi.jpeg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Alu Matar",
+              "itemDescription": "No Onion, No Garlic. Green peas, potatoes & fresh tomatoes",
+              "itemImage": "/menu/jainFood/aluMatar.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Gobi Matar",
+              "itemDescription": "No Onion, No Garlic. Fresh cauliflower, green peas, fresh tomatoes & spices",
+              "itemImage": "/menu/jainFood/gobiMatar.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Gobi Matar",
+              "itemDescription": "No Onion, No Garlic. Fresh cauliflower, green peas, fresh tomatoes & spices",
+              "itemImage": "/menu/jainFood/gobiMatar.jpg",
+              "itemPrice": 15.5
+          },
+          {
+              "itemName": "Nirvana Yellow Daal",
+              "itemDescription": "No Onion, No Garlic. Yellow lentils cooked with chef special home ingredients & herbs",
+              "itemImage": "/menu/jainFood/nirvanaYellowDaal.jpeg",
+              "itemPrice": 14.5
+          }
+      ]
   },
   {
-    "menuType":"chicken",
-    "menuList":  [
-      {
-        "itemName": "Butter Chicken",
-        "itemDescription": "Roasted chunks of chicken thigh meat in a creamy buttery tomato sauce.",
-        "itemImage": "",
-        "itemPrice": 18
-      },
-      {
-        "itemName": "Chicken Tikka Masala",
-        "itemDescription": "Grilled chicken cubes with creamy tomato sauce. A British national dish.",
-        "itemImage": "",
-        "itemPrice": 18
-      },
-      {
-        "itemName": "Chicken Korma",
-        "itemDescription": "Chicken cubes in a mild creamy cashew sauce",
-        "itemImage": "",
-        "itemPrice": 18
-      },
-      {
-        "itemName": "Kerala Pepper Chicken",
-        "itemDescription": "Chicken cubes in black pepper & coconut milk. A spicy south Indian dish.",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Chicken Curry",
-        "itemDescription": "Chicken cubes in traditional Indian curry (no cream).",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Chicken Vindaloo",
-        "itemDescription": "Chicken breast cubes & potatoes in a traditional spicy Indian sauce",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Kadhai Chicken",
-        "itemDescription": "A popular north Indian dish. Chicken cooked in a spicy gravy along with onions and bell peppers.",
-        "itemImage": "",
-        "itemPrice": 18
-      },
-      {
-        "itemName": "Chicken Tikka Saag",
-        "itemDescription": "Grilled chicken cubes with fresh ground spinach. A mild dish.",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Chicken Jalfrazi",
-        "itemDescription": "Chicken cubes, onion, green pepper, tomato & vegetables.",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Chicken Dhansak",
-        "itemDescription": "Chicken cubes, yellow lentils & spices.",
-        "itemImage": "",
-        "itemPrice": 16.50
-      }
-    ]
+      "menuType": "chicken",
+      "menuName": "Chicken",
+      "menuList": [
+          {
+              "itemName": "Butter Chicken",
+              "itemDescription": "Roasted chunks of chicken thigh meat in a creamy buttery tomato sauce.",
+              "itemImage": "/menu/chicken/butterChicken.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Chicken Tikka Masala",
+              "itemDescription": "Grilled chicken cubes with creamy tomato sauce. A British national dish.",
+              "itemImage": "/menu/chicken/chickenTikkaMasala.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Chicken Korma",
+              "itemDescription": "Chicken cubes in a mild creamy cashew sauce",
+              "itemImage": "/menu/chicken/chickenKorma.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Kerala Pepper Chicken",
+              "itemDescription": "Chicken cubes in black pepper & coconut milk. A spicy south Indian dish.",
+              "itemImage": "/menu/chicken/keralaPepperChicken.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Chicken Curry",
+              "itemDescription": "Chicken cubes in traditional Indian curry (no cream).",
+              "itemImage": "/menu/chicken/chickenCurry.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Chicken Vindaloo",
+              "itemDescription": "Chicken breast cubes & potatoes in a traditional spicy Indian sauce",
+              "itemImage": "/menu/chicken/chickenVindaloo.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Kadhai Chicken",
+              "itemDescription": "A popular north Indian dish. Chicken cooked in a spicy gravy along with onions and bell peppers.",
+              "itemImage": "/menu/chicken/kadhaiChicken.jpg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Chicken Tikka Saag",
+              "itemDescription": "Grilled chicken cubes with fresh ground spinach. A mild dish.",
+              "itemImage": "/menu/chicken/chickenTikkaSaag.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Chicken Jalfrazi",
+              "itemDescription": "Chicken cubes, onion, green pepper, tomato & vegetables.",
+              "itemImage": "/menu/chicken/chickenJalfrazi.jpeg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Chicken Dhansak",
+              "itemDescription": "Chicken cubes, yellow lentils & spices.",
+              "itemImage": "/menu/chicken/chickenDhansak.jpg",
+              "itemPrice": 16.5
+          }
+      ]
   },
   {
-    "menuType":"lambAndGoat",
-    "menuList": [
-      {
-        "itemName": "Goat Pepper Fry",
-        "itemDescription": "A south Indian dish. Meat is coated in a thick gravy with flavorful masala sauce and black pepper",
-        "itemImage": "",
-        "itemPrice": 24
-      },
-      {
-        "itemName": "Goat Curry",
-        "itemDescription": "Bone-in goat pieces in traditional curry sauce",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Goat Vindaloo",
-        "itemDescription": "Bone-in goat with potatoes in hot spiced vindaloo sauce",
-        "itemImage": "",
-        "itemPrice": 18
-      },
-      {
-        "itemName": "Lamb Roganjosh",
-        "itemDescription": "Tender lamb, yogurt, onions, ginger & garlic in a traditional curry sauce",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Korma",
-        "itemDescription": "Lamb cubes in a mild creamy cashew sauce",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Tikka Masala",
-        "itemDescription": "Chunks of Lamb cooked in a creamy tomato sauce",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Saag",
-        "itemDescription": "Tender lamb with mild spiced ground spinach",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Vindaloo",
-        "itemDescription": "Tender lamb chunks sauteed with potatoes, hot spices & vinegar",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Madras Curry",
-        "itemDescription": "South Indian style lamb curry with roasted dry chili & mustard seed in a coconut based sauce",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Curry",
-        "itemDescription": "Lamb cubes, traditional onion based gravy & spices",
-        "itemImage": "",
-        "itemPrice": 22
-      },
-      {
-        "itemName": "Lamb Kalimirch",
-        "itemDescription": "Lamb cubes in a creamy peppery sauce",
-        "itemImage": "",
-        "itemPrice": 22
-      }
-    ]
+      "menuType": "lambAndGoat",
+      "menuName": "Lamb and Goat",
+      "menuList": [
+          {
+              "itemName": "Goat Pepper Fry",
+              "itemDescription": "A south Indian dish. Meat is coated in a thick gravy with flavorful masala sauce and black pepper",
+              "itemImage": "/menu/lambAndGoat/goatPepperFry.jpg",
+              "itemPrice": 24
+          },
+          {
+              "itemName": "Goat Curry",
+              "itemDescription": "Bone-in goat pieces in traditional curry sauce",
+              "itemImage": "/menu/lambAndGoat/goatCurry.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Goat Vindaloo",
+              "itemDescription": "Bone-in goat with potatoes in hot spiced vindaloo sauce",
+              "itemImage": "/menu/lambAndGoat/goatVindaloo.jpeg",
+              "itemPrice": 18
+          },
+          {
+              "itemName": "Lamb Roganjosh",
+              "itemDescription": "Tender lamb, yogurt, onions, ginger & garlic in a traditional curry sauce",
+              "itemImage": "/menu/lambAndGoat/lambRoganjosh.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Korma",
+              "itemDescription": "Lamb cubes in a mild creamy cashew sauce",
+              "itemImage": "/menu/lambAndGoat/lambKorma.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Tikka Masala",
+              "itemDescription": "Chunks of Lamb cooked in a creamy tomato sauce",
+              "itemImage": "/menu/lambAndGoat/lambTikkaMasala.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Saag",
+              "itemDescription": "Tender lamb with mild spiced ground spinach",
+              "itemImage": "/menu/lambAndGoat/lambSaag.jpeg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Vindaloo",
+              "itemDescription": "Tender lamb chunks sauteed with potatoes, hot spices & vinegar",
+              "itemImage": "/menu/lambAndGoat/lambVindaloo.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Madras Curry",
+              "itemDescription": "South Indian style lamb curry with roasted dry chili & mustard seed in a coconut based sauce",
+              "itemImage": "/menu/lambAndGoat/lambMadrasCurry.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Curry",
+              "itemDescription": "Lamb cubes, traditional onion based gravy & spices",
+              "itemImage": "/menu/lambAndGoat/lambCurry.jpg",
+              "itemPrice": 22
+          },
+          {
+              "itemName": "Lamb Kalimirch",
+              "itemDescription": "Lamb cubes in a creamy peppery sauce",
+              "itemImage": "/menu/lambAndGoat/lambKalimirch.jpg",
+              "itemPrice": 22
+          }
+      ]
   },
   {
-    "menuType":"seafood",
-    "menuList": [
-      {
-        "itemName": "Shrimp Korma",
-        "itemDescription": "Jumbo shrimp cooked in a creamy cashew sauce Rich and flavorful taste",
-        "itemImage": "",
-        "itemPrice": 24.50
-      },
-      {
-        "itemName": "Shrimp Vindaloo",
-        "itemDescription": "Jumbo shrimp & potato served with traditional spicy Indian curry sauce",
-        "itemImage": "",
-        "itemPrice": 23
-      },
-      {
-        "itemName": "Shrimp Goan Curry",
-        "itemDescription": "Jumbo shrimp served with an authentic goan coconut curry",
-        "itemImage": "",
-        "itemPrice": 23
-      },
-      {
-        "itemName": "Shrimp Tikka Masala",
-        "itemDescription": "Grilled shrimp, onion, tomato, & bell pepper served with a mild creamy tomato sauce",
-        "itemImage": "",
-        "itemPrice": 23
-      },
-      {
-        "itemName": "Fish Curry",
-        "itemDescription": "Tilapia with curry leaves & mustard seed served in a tangy coconut sauce",
-        "itemImage": "",
-        "itemPrice": 23
-      },
-      {
-        "itemName": "Shrimp Saag",
-        "itemDescription": "Jumbo shrimp with ground spinach with little touch of cream & spices",
-        "itemImage": "",
-        "itemPrice": 23
-      },
-      {
-        "itemName": "Shrimp Curry",
-        "itemDescription": "Shrimp cooked in traditional curry sauce",
-        "itemImage": "",
-        "itemPrice": 23
-      }
-    ]
+      "menuType": "seafood",
+      "menuName": "Seafood",
+      "menuList": [
+          {
+              "itemName": "Shrimp Korma",
+              "itemDescription": "Jumbo shrimp cooked in a creamy cashew sauce Rich and flavorful taste",
+              "itemImage": "/menu/seafood/shrimpKorma.jpg",
+              "itemPrice": 24.5
+          },
+          {
+              "itemName": "Shrimp Vindaloo",
+              "itemDescription": "Jumbo shrimp & potato served with traditional spicy Indian curry sauce",
+              "itemImage": "/menu/seafood/shrimpVindaloo.jpeg",
+              "itemPrice": 23
+          },
+          {
+              "itemName": "Shrimp Goan Curry",
+              "itemDescription": "Jumbo shrimp served with an authentic goan coconut curry",
+              "itemImage": "/menu/seafood/shrimpGoanCurry.jpg",
+              "itemPrice": 23
+          },
+          {
+              "itemName": "Shrimp Tikka Masala",
+              "itemDescription": "Grilled shrimp, onion, tomato, & bell pepper served with a mild creamy tomato sauce",
+              "itemImage": "/menu/seafood/shrimpTikkaMasala.jpg",
+              "itemPrice": 23
+          },
+          {
+              "itemName": "Fish Curry",
+              "itemDescription": "Tilapia with curry leaves & mustard seed served in a tangy coconut sauce",
+              "itemImage": "/menu/seafood/fishCurry.jpg",
+              "itemPrice": 23
+          },
+          {
+              "itemName": "Shrimp Saag",
+              "itemDescription": "Jumbo shrimp with ground spinach with little touch of cream & spices",
+              "itemImage": "/menu/seafood/shrimpSaag.jpg",
+              "itemPrice": 23
+          },
+          {
+              "itemName": "Shrimp Curry",
+              "itemDescription": "Shrimp cooked in traditional curry sauce",
+              "itemImage": "/menu/seafood/shrimpCurry.jpeg",
+              "itemPrice": 23
+          }
+      ]
   },
   {
-    "menuType":"bread",
-    "menuList": [
-      {
-        "itemName": "Garlic Naan",
-        "itemDescription": "Fresh garlic & coriander seasoned naan",
-        "itemImage": "",
-        "itemPrice": 4
-      },
-      {
-        "itemName": "Naan",
-        "itemDescription": "Traditional clay oven baked white bread",
-        "itemImage": "",
-        "itemPrice": 3
-      },
-      {
-        "itemName": "Bullet Naan (Very Spicy)",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 6
-      },
-      {
-        "itemName": "Peshwari Naan",
-        "itemDescription": "Stuffed with mixed nuts & coconut is item",
-        "itemImage": "",
-        "itemPrice": 5
-      },
-      {
-        "itemName": "Roti",
-        "itemDescription": "Whole wheat bread in clay oven",
-        "itemImage": "",
-        "itemPrice": 3
-      },
-      {
-        "itemName": "Aloo Paratha",
-        "itemDescription": "Whole wheat stuffed with spiced potato",
-        "itemImage": "",
-        "itemPrice": 5
-      },
-      {
-        "itemName": "Lachha Paratha",
-        "itemDescription": "Multi-layered whole wheat bread",
-        "itemImage": "",
-        "itemPrice": 4
-      },
-      {
-        "itemName": "Onion Kulcha",
-        "itemDescription": "Naan bread stuffed with spiced onion",
-        "itemImage": "",
-        "itemPrice": 4
-      },
-      {
-        "itemName": "Paneer Naan",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 6
-      },
-      {
-        "itemName": "Bread Basket",
-        "itemDescription": "Choice of any three breads from below: Roti, Naan, Garlic Naan, Onion Kulcha",
-        "itemImage": "",
-        "itemPrice": 10
-      }
-    ]
+      "menuType": "bread",
+      "menuName": "Bread",
+      "menuList": [
+          {
+              "itemName": "Garlic Naan",
+              "itemDescription": "Fresh garlic & coriander seasoned naan",
+              "itemImage": "/menu/bread/garlicNaan.jpg",
+              "itemPrice": 4
+          },
+          {
+              "itemName": "Naan",
+              "itemDescription": "Traditional clay oven baked white bread",
+              "itemImage": "/menu/bread/naan.jpg",
+              "itemPrice": 3
+          },
+          {
+              "itemName": "Bullet Naan (Very Spicy)",
+              "itemDescription": "",
+              "itemImage": "/menu/bread/bulletNaan.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Peshwari Naan",
+              "itemDescription": "Stuffed with mixed nuts & coconut is item",
+              "itemImage": "/menu/bread/peshwariNaan.jpg",
+              "itemPrice": 5
+          },
+          {
+              "itemName": "Roti",
+              "itemDescription": "Whole wheat bread in clay oven",
+              "itemImage": "/menu/bread/roti.jpg",
+              "itemPrice": 3
+          },
+          {
+              "itemName": "Aloo Paratha",
+              "itemDescription": "Whole wheat stuffed with spiced potato",
+              "itemImage": "/menu/bread/alooParatha.jpg",
+              "itemPrice": 5
+          },
+          {
+              "itemName": "Lachha Paratha",
+              "itemDescription": "Multi-layered whole wheat bread",
+              "itemImage": "/menu/bread/lachhaParatha.jpg",
+              "itemPrice": 4
+          },
+          {
+              "itemName": "Onion Kulcha",
+              "itemDescription": "Naan bread stuffed with spiced onion",
+              "itemImage": "/menu/bread/onionKulcha.jpg",
+              "itemPrice": 4
+          },
+          {
+              "itemName": "Paneer Naan",
+              "itemDescription": "",
+              "itemImage": "/menu/bread/paneerNaan.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Bread Basket",
+              "itemDescription": "Choice of any three breads from below: Roti, Naan, Garlic Naan, Onion Kulcha",
+              "itemImage": "/menu/bread/breadBasket.jpeg",
+              "itemPrice": 10
+          }
+      ]
   },
   {
-    "menuType":"biriyani",
-    "menuList": [
-      {
-        "itemName": "Special House Biryani",
-        "itemDescription": "Nirvana Special. Tender pieces of Chicken, Lamb, and Shrimp cooked with basmati rice with herbs and various spiced",
-        "itemImage": "",
-        "itemPrice": 25
-      },
-      {
-        "itemName": "Goat Biryani",
-        "itemDescription": "Bone-in Goat pieces prepared with basmati rice, flavored with saffron & delicate spices",
-        "itemImage": "",
-        "itemPrice": 19.50
-      },
-      {
-        "itemName": "Chicken Biryani",
-        "itemDescription": "Tender pieces of juicy chicken prepared with basmati rice, flavored with saffron & delicate spices",
-        "itemImage": "",
-        "itemPrice": 16.50
-      },
-      {
-        "itemName": "Lamb Biryani",
-        "itemDescription": "Tender pieces of lamb cooked with basmati rice & exotic spices",
-        "itemImage": "",
-        "itemPrice": 19.50
-      },
-      {
-        "itemName": "Shrimp Biryani",
-        "itemDescription": "Indian basmati rice cooked with shrimp, onions, fresh ginger & delicate spices",
-        "itemImage": "",
-        "itemPrice": 20.50
-      },
-      {
-        "itemName": "Vegetable Biryani",
-        "itemDescription": "Basmati rice cooked with seasonal vegetables, herbs & spices",
-        "itemImage": "",
-        "itemPrice": 14.50
-      },
-      {
-        "itemName": "Goat Biryani",
-        "itemDescription": "Bone-in goat cooked with yogurt and biryani spice",
-        "itemImage": "",
-        "itemPrice": 16
-      }
-    ]
+      "menuType": "biriyani",
+      "menuName": "Biryani",
+      "menuList": [
+          {
+              "itemName": "Special House Biryani",
+              "itemDescription": "Nirvana Special. Tender pieces of Chicken, Lamb, and Shrimp cooked with basmati rice with herbs and various spiced",
+              "itemImage": "/menu/biriyani/specialHouseBiryani.jpg",
+              "itemPrice": 25
+          },
+          {
+              "itemName": "Goat Biryani",
+              "itemDescription": "Bone-in Goat pieces prepared with basmati rice, flavored with saffron & delicate spices",
+              "itemImage": "/menu/biriyani/goatBiryani.jpg",
+              "itemPrice": 19.5
+          },
+          {
+              "itemName": "Chicken Biryani",
+              "itemDescription": "Tender pieces of juicy chicken prepared with basmati rice, flavored with saffron & delicate spices",
+              "itemImage": "/menu/biriyani/chickenBiryani.jpg",
+              "itemPrice": 16.5
+          },
+          {
+              "itemName": "Lamb Biryani",
+              "itemDescription": "Tender pieces of lamb cooked with basmati rice & exotic spices",
+              "itemImage": "/menu/biriyani/lambBiryani.jpg",
+              "itemPrice": 19.5
+          },
+          {
+              "itemName": "Shrimp Biryani",
+              "itemDescription": "Indian basmati rice cooked with shrimp, onions, fresh ginger & delicate spices",
+              "itemImage": "/menu/biriyani/shrimpBiryani.jpg",
+              "itemPrice": 20.5
+          },
+          {
+              "itemName": "Vegetable Biryani",
+              "itemDescription": "Basmati rice cooked with seasonal vegetables, herbs & spices",
+              "itemImage": "/menu/biriyani/vegetableBiryani.jpg",
+              "itemPrice": 14.5
+          },
+          {
+              "itemName": "Goat Biryani",
+              "itemDescription": "Bone-in goat cooked with yogurt and biryani spice",
+              "itemImage": "/menu/biriyani/goatBiryani.jpg",
+              "itemPrice": 16
+          }
+      ]
   },
   {
-    "menuType":"dessert",
-    "menuList": [
-      {
-        "itemName": "Gulab Jam",
-        "itemDescription": "Dry milk balls deep fried in sugar syrup, flavored with cardamom and rosewater",
-        "itemImage": "",
-        "itemPrice": 5
-      },
-      {
-        "itemName": "Orange Kulf",
-        "itemDescription": "Orange flavored Indian ice cream in real orange",
-        "itemImage": "",
-        "itemPrice": 8
-      },
-      {
-        "itemName": "Orange Kulf in a cup",
-        "itemDescription": "Orange flavored Indian ice cream in a 5.5 oz cup",
-        "itemImage": "",
-        "itemPrice": 4.50
-      },
-      {
-        "itemName": "Rice Pudding",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 5
-      },
-      {
-        "itemName": "Gajar Halwa",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 6
-      }
-    ]
+      "menuType": "dessert",
+      "menuName": "Dessert",
+      "menuList": [
+          {
+              "itemName": "Gulab Jam",
+              "itemDescription": "Dry milk balls deep fried in sugar syrup, flavored with cardamom and rosewater",
+              "itemImage": "/menu/dessert/gulabJam.jpg",
+              "itemPrice": 5
+          },
+          {
+              "itemName": "Orange Kulf",
+              "itemDescription": "Orange flavored Indian ice cream in real orange",
+              "itemImage": "/menu/dessert/orangeKulf.jpg",
+              "itemPrice": 8
+          },
+          {
+              "itemName": "Orange Kulf in a cup",
+              "itemDescription": "Orange flavored Indian ice cream in a 5.5 oz cup",
+              "itemImage": "/menu/dessert/orangeKulfInACup.jpg",
+              "itemPrice": 4.5
+          },
+          {
+              "itemName": "Rice Pudding",
+              "itemDescription": "",
+              "itemImage": "/menu/dessert/ricePudding.jpg",
+              "itemPrice": 5
+          },
+          {
+              "itemName": "Gajar Halwa",
+              "itemDescription": "",
+              "itemImage": "/menu/dessert/gajarHalwa.jpeg",
+              "itemPrice": 6
+          }
+      ]
   },
   {
-    "menuType":"drinks",
-    "menuList": [
-      {
-        "itemName": "Strawberry Lassi",
-        "itemDescription": "Yogurt smoothie made with fresh Strawberries",
-        "itemImage": "",
-        "itemPrice": 8
-      },
-      {
-        "itemName": "Mango Lassi",
-        "itemDescription": "Famous Indian mango yogurt smoothie",
-        "itemImage": "",
-        "itemPrice": 6
-      },
-      {
-        "itemName": "Sweet Lassi",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 6
-      },
-      {
-        "itemName": "Salted Lassi",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 6
-      },
-      {
-        "itemName": "Masala Chai",
-        "itemDescription": "",
-        "itemImage": "",
-        "itemPrice": 4
-      },
-      {
-        "itemName": "Sodas",
-        "itemDescription": "Coke Diet Coke Sprite Ginger Ale",
-        "itemImage": "",
-        "itemPrice": 2.50
-      
-      }
-    ]
+      "menuType": "drinks",
+      "menuName": "Drinks",
+      "menuList": [
+          {
+              "itemName": "Strawberry Lassi",
+              "itemDescription": "Yogurt smoothie made with fresh Strawberries",
+              "itemImage": "/menu/drinks/strawberryLassi.jpeg",
+              "itemPrice": 8
+          },
+          {
+              "itemName": "Mango Lassi",
+              "itemDescription": "Famous Indian mango yogurt smoothie",
+              "itemImage": "/menu/drinks/mangoLassi.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Sweet Lassi",
+              "itemDescription": "",
+              "itemImage": "/menu/drinks/sweetLassi.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Salted Lassi",
+              "itemDescription": "",
+              "itemImage": "/menu/drinks/saltedLassi.jpg",
+              "itemPrice": 6
+          },
+          {
+              "itemName": "Masala Chai",
+              "itemDescription": "",
+              "itemImage": "/menu/drinks/masalaChai.jpg",
+              "itemPrice": 4
+          },
+          {
+              "itemName": "Sodas",
+              "itemDescription": "Coke Diet Coke Sprite Ginger Ale",
+              "itemImage": "/menu/drinks/sodas.jpeg",
+              "itemPrice": 2.5
+          }
+      ]
   }
 ]
-  

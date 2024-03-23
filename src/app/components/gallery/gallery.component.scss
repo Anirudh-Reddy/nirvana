@@ -1,17 +1,36 @@
 .gallery{
     padding-bottom: 100px;
-    h2{
+   .gallery_title{
         text-align: center;
-        color: #0e0a05;
+        color: white;
         font-size: 3rem;
-        margin: 0;
-        background: #bdc3c7;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        padding: 50px;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
-    }
+        padding: 20px;
+            h2{
+            background-size: 150%;
+            background-image: repeating-linear-gradient(to right, #a2682a 0%, #be8c3c 8%, #be8c3c 18%, #d3b15f 27%, #faf0a0 35%, #ffffc2 40%, #faf0a0 50%, #d3b15f 58%, #be8c3c 67%, #b17b32 77%, #bb8332 83%, #d4a245 88%, #e1b453 93%, #a4692a 100%);
+            animation: MoveBackgroundPosition 6s ease-in-out infinite;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-size: 40px;
+            padding: 50px;
+            box-shadow: 0px 5px 5px -3px rgb(236 221 37 / 20%), 0px 8px 10px 1px rgb(232 182 27 / 14%), 0px 3px 14px 2px rgb(226 196 28 / 12%);
+        }
+   }
 }
+
+@keyframes MoveBackgroundPosition { 
+    0% {
+        background-position: 0% 50%
+    }
+    
+    50% {
+      background-position: 100% 50%
+    }
+    
+    100% {
+      background-position: 0% 50%
+    }
+  }
 
 .gallery_container{
     display: flex;
@@ -37,7 +56,8 @@
     img{
         box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
         width: 300px;
-        height: 250px;    
+        height: 250px;
+        border-radius: 10px;    
     }
 }
 
@@ -47,21 +67,16 @@
     box-shadow: 2px 2px 4px rgba(117, 117, 117, 0.8), -2px -2px 4px rgba(117, 117, 117, 0.8);
 }
 
-
-@media(min-width:851px){
-
-}
-
 @media(max-width:850px){
     .g_i_card > img{
         width: 280px;
-        height: 230px;    
+        height: 230px;
     }
 }
 
 @media(max-width:550px){
     .g_i_card > img{
         width: 100%;
-        height: auto;    
+        height: auto;
     }
 }

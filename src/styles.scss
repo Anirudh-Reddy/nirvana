@@ -6,7 +6,7 @@ body { margin: 0;}
 body {
     transition: background-color 0.3s ease;
   }
-  
+
 .dark-mode {
     background-color: black;
 }
@@ -50,8 +50,8 @@ html {
 
 .bg-dark{
     background: #000000;
-    background: -webkit-linear-gradient(to right, #434343, #000000);
-    background: linear-gradient(to right, #434343, #000000);
+    background: -webkit-linear-gradient(to right, #03030a, #20102a);
+    background: linear-gradient(to right,  #03030a, #20102a);
     color: white;
     .swiper-pagination-bullet {
         background-color: white !important;
@@ -67,5 +67,22 @@ html {
         height: 10px !important;
         width: 10px !important;
         border-color: white !important;
+    }
+}
+
+.mdc-tab-indicator--active{
+    .mat-mdc-tab-ripple{
+        background: white;
+        border-radius: 10px;
+    }
+    .mdc-tab__content{
+        .menu_tab{
+            color: black;
+        }
+    }
+    .mdc-tab-indicator{
+        .mdc-tab-indicator__content--underline{
+            border: none;
+        }
     }
 }

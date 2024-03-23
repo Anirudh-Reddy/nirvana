@@ -7,14 +7,11 @@
     background: linear-gradient(to top, #004e92, #000428);
   }
 
-  
-  .bg-toggle{
-    background: #0f0c29;
-    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
 
+  .bg-toggle{
+    background: linear-gradient(to right, #03030a, #20102a);
   }
-  
+
   .home_container{
     padding: 0 50px;
     height: 70%;
@@ -23,7 +20,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // background: linear-gradient(rgba(15, 23, 43, 0.9), rgba(15, 23, 43, 0.9)), url(../../../assets/images/AVK\ Square\ Logo.svg);
   }
 
   .home_description{
@@ -55,14 +51,12 @@
     background-size: auto auto;
     background-clip: border-box;
     background-size: 200% auto;
-    // color: #fff;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 2s linear infinite;
     display: inline-block;
     background-image: linear-gradient(-153deg, #231557 -76%, #44107a 39%, #ff1361 67%, #fff800 100%);
-    // background-image: linear-gradient(-153deg, #43B483 -76%, #C23980 39%, #ff1361 67%, #00A1D4 100%);
   }
 
   .home_right{
@@ -76,18 +70,18 @@
       overflow: hidden;
       max-width: 460px;
   }
-  
+
   .home_right > img{
       position: absolute;
       object-fit: cover;
       width: 100%;
   }
-  
+
   .chakr{
       animation: spin 20s linear infinite;
       border-radius: 50%;
   }
-  
+
   @keyframes spin {
       0% {
         transform: rotate(0deg);
@@ -96,28 +90,12 @@
         transform: rotate(360deg);
       }
     }
-  
-  .buddha{
-  }
 
-
-
-  
-@media(min-width:851px){
-  .home_content{
-    // max-height: 980px;
-  }
-}
-
-@media(max-width:850px){  
+@media(max-width:850px){
   .home_container{
     min-height: 600px;
     display: flex;
     flex-direction: column;
-  }
-
-  .home_content{
-    // max-height: 980px;
   }
 
   .home_left{
@@ -166,5 +144,11 @@
       font-size: 12px;
       font-family: cursive !important;
     }
+  }
+}
+
+@media(max-width:330px){
+  .home_right{
+    min-width: 290px;
   }
 }
