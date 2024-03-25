@@ -1,5 +1,113 @@
 [
   {
+    "menuType": "nirvanaSpecials",
+    "menuName": "Nirvana Specials",
+    "menuList":[
+        {
+          "itemName": "Chicken Samosa",
+          "itemDescription": "Indian pastry stuffed with delicately spiced minced chicken",
+          "itemImage": "/menu/specials/chickenSamosa.jpg",
+          "itemPrice": 8.00
+        },
+        {
+          "itemName": "Papri Chat",
+          "itemDescription": "Crunchy, tangy, hot and sweet flavors combine to make this papri chaat delicious to eat as a snack",
+          "itemImage": "/menu/specials/papriChat.jpeg", 
+          "itemPrice": 9.00
+        },
+        {
+          "itemName": "Veg Manchurian",
+          "itemDescription": "Mixed Veg balls coated in a Manchurian sauce made from scratch (ginger and garlic, soy sauce, chili sauce and vinegar",
+          "itemImage": "/menu/specials/vegManchurian.jpeg",
+          "itemPrice": 12.00
+        },
+        {
+          "itemName": "Salmon Pakora",
+          "itemDescription": "Pieces of Salmon dipped in delicately spiced batter and fried to golden perfection",
+          "itemImage": "/menu/specials/salmonPakorat.jpeg",
+          "itemPrice": 13.00
+        },
+        {
+          "itemName": "Chilli Fish",
+          "itemDescription": "Chunks Of Tilapia Fish Sauteed in Onions and Indian Peppers",
+          "itemImage": "/menu/specials/chilliFish.jpg",
+          "itemPrice": 13.00
+        },
+        {
+          "itemName": "Kadhai Paneer",
+          "itemDescription": "Cottage Cheese cooked with Tomatoes and bell peppers with fresh ground spices",
+          "itemImage": "/menu/specials/kadhaiPaneer.jpg",
+          "itemPrice": 16.00
+        },
+        {
+          "itemName": "Veg Makhani",
+          "itemDescription": "Mixed Vegetables prepared in a creamy tomato sauce with a touch of butter",
+          "itemImage": "/menu/specials/vegMakhani.jpg",
+          "itemPrice": 15.00
+        },
+        {
+          "itemName": "Veg Vindaloo",
+          "itemDescription": "Mix Vegetables in a traditional spicy indian sauce",
+          "itemImage": "/menu/specials/vegVindaloo.jpg",
+          "itemPrice": 14.50
+        },
+        {
+          "itemName": "Veg Jalfrazi",
+          "itemDescription": "Mixed vegetables cooked with onions, green peppers and tomatoes",
+          "itemImage": "/menu/specials/vegJalfrazi.jpg",
+          "itemPrice": 15.50
+        },
+        {
+          "itemName": "Jeera Alu",
+          "itemDescription": "A popular Indian dish. Potatoes spiced with cumin seeds and herbs",
+          "itemImage": "/menu/specials/jeeraAloo.jpg",
+          "itemPrice": 14.00
+        },
+        {
+          "itemName": "Kadhai Chicken",
+          "itemDescription": "A popular north Indian dish. Chicken cooked in a spicy gravy along with onions and green peppers.",
+          "itemImage": "/menu/specials/kadhaiChicken.jpg",
+          "itemPrice": 18.00
+        },
+        {
+          "itemName": "Kadhai Goat",
+          "itemDescription": "A popular north Indian dish. Goat cooked in a spicy gravy along with onions and green peppers.",
+          "itemImage": "/menu/specials/kadhaiGoat.jpg",
+          "itemPrice": 22.00
+        },
+        {
+          "itemName": "Goat Pepper Fry",
+          "itemDescription": "Goat pepper fry is a south Indian dish where the meat is coated in a thick and flavorful masala sauce and black pepper",
+          "itemImage": "/menu/specials/goatPepperFry.jpg",
+          "itemPrice": 24.00
+        },
+        {
+          "itemName": "Lamb Tikka Masala",
+          "itemDescription": "Chunks of Lamb cooked in Tikka Sauce - A creamy tomato sauce",
+          "itemImage": "/menu/specials/lambTikkaMasala.jpg",
+          "itemPrice": 22.00
+        },
+        {
+          "itemName": "Shrimp Korma",
+          "itemDescription": "Shrimp cooked in a creamy cashew sauce. Rich and flavorful taste",
+          "itemImage": "/menu/specials/shrimpKorma.jpg",
+          "itemPrice": 24.50
+        },
+        {
+          "itemName": "Special House Biryani",
+          "itemDescription": "Tender pieces of Chicken, Lamb and Shrimp cooked with basmati rice with herbs and spices",
+          "itemImage": "/menu/specials/specialHouseBiryani.jpg",
+          "itemPrice": 25.00
+        },
+        {
+          "itemName": "Dessert- Orange Kulfi in a cup",
+          "itemDescription": "Orange flavored Indian ice cream in a 5.5 oz cup",
+          "itemImage": "/menu/specials/orangeKulfInACup.jpg",
+          "itemPrice": 4.00
+        }
+      ]      
+  },
+  {
       "menuType": "starters",
       "menuName": "Starters",
       "menuList": [
@@ -150,73 +258,73 @@
       ]
   },
   {
-      "menuType": "mainDishes",
-      "menuName": "Main Dishes",
+      "menuType": "tandooriDishes",
+      "menuName": "Tandoori Dishes",
       "menuList": [
           {
               "itemName": "Tandoori Chicken",
               "itemDescription": "Chicken with bone marinated & spiced overnight, broiled in clay oven",
-              "itemImage": "/menu/mainDishes/tandooriChicken.jpg",
+              "itemImage": "/menu/tandooriDishes/tandooriChicken.jpg",
               "itemPrice": 18
           },
           {
               "itemName": "Lamb Chops",
               "itemDescription": "Lamb Chops served with yogurt, ginger & garlic marinade, grilled in clay oven",
-              "itemImage": "/menu/mainDishes/lambChops.jpg",
+              "itemImage": "/menu/tandooriDishes/lambChops.jpg",
               "itemPrice": 27
           },
           {
               "itemName": "Tandoori Salmon",
               "itemDescription": "Salmon Marinated with ginger & paprika served with grilled asparagus",
-              "itemImage": "/menu/mainDishes/tandooriSalmon.jpeg",
+              "itemImage": "/menu/tandooriDishes/tandooriSalmon.jpeg",
               "itemPrice": 24
           },
           {
               "itemName": "Tiger Shrimp",
               "itemDescription": "Jumbo Tiger Shrimp marinated overnight with cumin & coriander spice, grilled in clay oven",
-              "itemImage": "/menu/mainDishes/tigerShrimp.jpeg",
+              "itemImage": "/menu/tandooriDishes/tigerShrimp.jpeg",
               "itemPrice": 24
           },
           {
               "itemName": "Malai Kabob",
               "itemDescription": "Chicken Tender cubes marinated in mild creamy spice, grilled in clay oven",
-              "itemImage": "/menu/mainDishes/malaiKabob.jpg",
+              "itemImage": "/menu/tandooriDishes/malaiKabob.jpg",
               "itemPrice": 18
           },
           {
               "itemName": "Chicken Tikka",
               "itemDescription": "Boneless Chicken Breast Cubes marinated overnight with chefs special spice, grilled in clay oven",
-              "itemImage": "/menu/mainDishes/chickenTikka.jpg",
+              "itemImage": "/menu/tandooriDishes/chickenTikka.jpg",
               "itemPrice": 18
           },
           {
               "itemName": "Chicken Lasooni Kabob",
               "itemDescription": "Boneless Chicken Kabob grilled with garlic flavor",
-              "itemImage": "/menu/mainDishes/chickenLasooniKabob.jpg",
+              "itemImage": "/menu/tandooriDishes/chickenLasooniKabob.jpg",
               "itemPrice": 19
           },
           {
               "itemName": "Lamb Seekh Kabob",
               "itemDescription": "Ground lamb marinated with herbs & spices, grilled in clay oven",
-              "itemImage": "/menu/mainDishes/lambSeekhKabob.jpg",
+              "itemImage": "/menu/tandooriDishes/lambSeekhKabob.jpg",
               "itemPrice": 20
           },
           {
               "itemName": "Tandoori Mixed Platter",
               "itemDescription": "Combination of tandoori chicken, salmon, shrimp, chicken tikka, and lamb seekh kabob",
-              "itemImage": "/menu/mainDishes/tandooriMixedPlatter.jpg",
+              "itemImage": "/menu/tandooriDishes/tandooriMixedPlatter.jpg",
               "itemPrice": 28
           },
           {
               "itemName": "Paneer Tandoori",
               "itemDescription": "",
-              "itemImage": "/menu/mainDishes/paneerTandoori.jpg",
+              "itemImage": "/menu/tandooriDishes/paneerTandoori.jpg",
               "itemPrice": 16
           },
           {
               "itemName": "Lamb Chop Korma",
               "itemDescription": "Lamb Chop in Korma Sauce - chef special",
-              "itemImage": "/menu/mainDishes/lambChopKorma.jpg",
+              "itemImage": "/menu/tandooriDishes/lambChopKorma.jpg",
               "itemPrice": 28
           }
       ]
@@ -346,7 +454,7 @@
               "itemPrice": 15.5
           },
           {
-              "itemName": "Jeera Aloo",
+              "itemName": "Jeera Alu",
               "itemDescription": "A popular Indian dish. Potatoes spiced with Cumin seeds and herbs",
               "itemImage": "/menu/vegetarian/jeeraAloo.jpg",
               "itemPrice": 14
